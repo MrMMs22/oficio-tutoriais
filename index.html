@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ofício — 90 tutoriais de casa, quintal e cabo</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <a class="brand" href="./index.html">
+        <div class="mark">Of</div>
+        <div><strong>Ofício</strong><span>90 tutoriais</span></div>
+      </a>
+      <label class="search">
+        <input data-search type="search" placeholder="privada, lâmpada, vaso, GPX…">
+      </label>
+    </div>
+  </header>
+  <main class="wrap">
+    <div class="hero" style="grid-template-columns:1fr;padding-top:28px">
+      <div>
+        <div class="kicker">Caderno prático</div>
+        <h1>90 ofícios para fazer em casa.</h1>
+        <p class="lead">Limpar privada, trocar lâmpada, plantar manjericão, passar GPX no Garmin.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-filter="todos">Todos</button>
+          <button class="btn btn-ghost" data-filter="casa">Casa</button>
+          <button class="btn btn-ghost" data-filter="jardim">Jardim</button>
+          <button class="btn btn-ghost" data-filter="eletronicos">Eletrônicos</button>
+        </div>
+      </div>
+    </div>
+    <p style="color:var(--muted);margin:8px 0 16px" data-count></p>
+    <div class="grid" id="lista"></div>
+    <div class="empty" data-empty>Nada com esse nome.</div>
+  </main>
+  <footer><div class="wrap">Ofício · 90 tutoriais com passo a passo.</div></footer>
+  <script src="./app.js"></script>
+</body>
+</html>
