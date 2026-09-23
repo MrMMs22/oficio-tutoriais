@@ -1,42 +1,2044 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ofício — 90 tutoriais de casa, quintal e cabo</title>
-  <link rel="stylesheet" href="./estilos.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0b0c0a">
+<title>Ofício — 90 tutoriais</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Outfit:wght@360;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0c0a;
+  --bg2:#121410;
+  --panel:#171914;
+  --ink:#f4f1ea;
+  --mute:#9a9588;
+  --line:rgba(244,241,234,.08);
+  --lime:#d8ff3c;
+  --lime2:#b6e00f;
+  --clay:#ff6a3d;
+  --teal:#7ee0c6;
+  --warn:#ffb020;
+  --shadow:0 20px 50px rgba(0,0,0,.35);
+  --r:22px;
+  --serif:"Instrument Serif",Georgia,serif;
+  --sans:"Outfit",system-ui,sans-serif;
+  --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);min-height:100%}
+body{
+  background:
+    radial-gradient(900px 480px at 80% -10%, rgba(216,255,60,.08), transparent 50%),
+    radial-gradient(700px 400px at -10% 20%, rgba(255,106,61,.07), transparent 46%),
+    var(--bg);
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.18;
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='140' height='140'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%' height='100%' filter='url(%23n)' opacity='.55'/></svg>");
+}
+a{color:inherit;text-decoration:none}
+button,input{font:inherit;color:inherit}
+.wrap{width:min(1180px,calc(100% - 28px));margin-inline:auto;position:relative;z-index:1}
+.nav{
+  position:sticky;top:0;z-index:30;
+  display:flex;align-items:center;gap:12px;justify-content:space-between;
+  padding:14px 0 12px;
+  background:linear-gradient(to bottom,rgba(11,12,10,.92),rgba(11,12,10,.72) 70%,transparent);
+  backdrop-filter:blur(16px);
+}
+.brand{display:flex;align-items:center;gap:10px}
+.mark{
+  width:40px;height:40px;border-radius:13px;
+  background:var(--lime);color:#111;
+  display:grid;place-items:center;font-weight:800;letter-spacing:-.06em;
+}
+.brand b{display:block;font-size:1.05rem;letter-spacing:-.03em}
+.brand small{display:block;color:var(--mute);font-size:.68rem;letter-spacing:.14em;text-transform:uppercase}
+.search{
+  flex:1;max-width:420px;display:flex;align-items:center;gap:8px;
+  background:var(--panel);border:1px solid var(--line);border-radius:999px;padding:10px 14px;
+}
+.search input{background:transparent;border:0;outline:0;width:100%}
+.year{
+  font-family:var(--serif);font-size:1.4rem;color:var(--lime);letter-spacing:-.04em
+}
+.hero{padding:18px 0 8px;display:grid;grid-template-columns:1.3fr .7fr;gap:22px;align-items:end}
+.kicker{color:var(--lime);letter-spacing:.18em;text-transform:uppercase;font-size:.72rem;font-weight:600}
+.hero h1{
+  font-family:var(--serif);font-weight:400;
+  font-size:clamp(2.6rem,8vw,5.4rem);line-height:.92;letter-spacing:-.045em;margin:10px 0 12px;
+}
+.hero h1 em{font-style:italic;color:var(--lime)}
+.lead{color:var(--mute);max-width:46ch;font-size:1.05rem}
+.stat{
+  background:var(--panel);border:1px solid var(--line);border-radius:28px;padding:22px;
+  display:grid;gap:10px;
+}
+.stat strong{font-family:var(--serif);font-size:3rem;line-height:1}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 16px}
+.chip{
+  border:1px solid var(--line);background:transparent;border-radius:999px;padding:9px 14px;cursor:pointer;
+}
+.chip.on{background:var(--lime);color:#111;border-color:transparent;font-weight:700}
+.count{color:var(--mute);font-size:.86rem;margin:0 0 14px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.card{
+  background:var(--panel);border:1px solid var(--line);border-radius:var(--r);
+  padding:16px 16px 14px;min-height:168px;display:flex;flex-direction:column;gap:8px;
+  transition:transform .18s ease, border-color .18s ease;
+}
+.card:active{transform:scale(.99)}
+.card:hover{border-color:rgba(216,255,60,.35);transform:translateY(-2px)}
+.card .top{display:flex;justify-content:space-between;align-items:center}
+.num{font-family:var(--mono);font-size:.72rem;color:var(--mute)}
+.pill{font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;font-weight:700;padding:4px 8px;border-radius:999px}
+.p-casa{background:#3a2218;color:#ffb199}
+.p-jardim{background:#1c2a14;color:#d8ff3c}
+.p-eletronicos{background:#132825;color:#7ee0c6}
+.card h3{margin:0;font-size:1.08rem;letter-spacing:-.03em;line-height:1.25}
+.card p{margin:0;color:var(--mute);font-size:.9rem;flex:1}
+.card .foot{color:var(--mute);font-size:.78rem}
+.empty{display:none;padding:50px 10px;text-align:center;color:var(--mute)}
+.art{max-width:720px;padding:12px 0 80px}
+.back{color:var(--lime);font-size:.9rem}
+.art h1{font-family:var(--serif);font-size:clamp(2rem,6vw,3.4rem);letter-spacing:-.04em;line-height:1.05;margin:10px 0}
+.art .lead{font-size:1.1rem}
+.meta{color:var(--mute);margin:8px 0 22px}
+.art h2{font-family:var(--serif);font-size:1.5rem;margin:28px 0 10px}
+.art ol,.art ul{padding-left:1.15rem;color:#ddd8cc}
+.art li{margin:8px 0}
+.call{border-radius:16px;padding:12px 14px;margin:14px 0;border:1px solid var(--line);background:#1b1d18}
+.call b{display:block;margin-bottom:4px}
+.call.tip{border-color:rgba(216,255,60,.25)}
+.call.warn{border-color:rgba(255,176,32,.35);background:#241c10}
+footer{color:var(--mute);padding:36px 0 50px;font-size:.85rem;border-top:1px solid var(--line);margin-top:28px}
+@media(max-width:860px){
+  .hero,.grid{grid-template-columns:1fr}
+  .search{max-width:none;width:100%}
+  .nav{flex-wrap:wrap}
+  .year{display:none}
+}
+
+.step{margin:0 0 22px}
+.step .n{
+  width:28px;height:28px;border-radius:50%;background:#d8ff3c;color:#111;
+  display:inline-grid;place-items:center;font-weight:800;font-size:.8rem;margin-right:8px
+}
+.fig{margin:10px 0 0;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#10120e}
+.fig img{width:100%;max-height:420px;object-fit:cover;display:block}
+.fig figcaption{padding:8px 12px 10px;color:var(--mute);font-size:.8rem}
+.card .cam{font-size:.7rem;color:var(--lime)}
+
+</style>
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap topbar-inner">
-      <a class="brand" href="./index.html">
-        <div class="mark">Of</div>
-        <div><strong>Ofício</strong><span>90 tutoriais</span></div>
-      </a>
-      <label class="search">
-        <input data-search type="search" placeholder="privada, lâmpada, vaso, GPX…">
-      </label>
-    </div>
+<div class="wrap">
+  <header class="nav">
+    <a class="brand" href="#/">
+      <div class="mark">Of</div>
+      <div><b>Ofício</b><small>casa · quintal · cabo</small></div>
+    </a>
+    <label class="search">
+      <input data-search type="search" placeholder="privada, lâmpada, Garmin, vaso…">
+    </label>
+    <div class="year">’26</div>
   </header>
-  <main class="wrap">
-    <div class="hero" style="grid-template-columns:1fr;padding-top:28px">
+
+  <div id="home">
+    <section class="hero">
       <div>
-        <div class="kicker">Caderno prático</div>
-        <h1>90 ofícios para fazer em casa.</h1>
-        <p class="lead">Limpar privada, trocar lâmpada, plantar manjericão, passar GPX no Garmin.</p>
-        <div class="hero-actions">
-          <button class="btn btn-primary" data-filter="todos">Todos</button>
-          <button class="btn btn-ghost" data-filter="casa">Casa</button>
-          <button class="btn btn-ghost" data-filter="jardim">Jardim</button>
-          <button class="btn btn-ghost" data-filter="eletronicos">Eletrônicos</button>
-        </div>
+        <div class="kicker">Caderno prático · edição 2026</div>
+        <h1>Noventa ofícios. <em>Um arquivo só.</em></h1>
+        <p class="lead">Limpar privada, trocar lâmpada, plantar manjericão, passar GPX no Garmin. Abre neste arquivo, sem conta e sem loja de app.</p>
       </div>
+      <aside class="stat">
+        <strong>90</strong>
+        <div>tutoriais com material, passos e alerta quando a coisa queima a mão.</div>
+      </aside>
+    </section>
+    <div class="chips">
+      <button class="chip on" data-filter="todos">Todos</button>
+      <button class="chip" data-filter="casa">Casa</button>
+      <button class="chip" data-filter="jardim">Jardim</button>
+      <button class="chip" data-filter="eletronicos">Eletrônicos</button>
     </div>
-    <p style="color:var(--muted);margin:8px 0 16px" data-count></p>
+    <p class="count" data-count></p>
     <div class="grid" id="lista"></div>
     <div class="empty" data-empty>Nada com esse nome.</div>
-  </main>
-  <footer><div class="wrap">Ofício · 90 tutoriais com passo a passo.</div></footer>
-  <script src="./app.js"></script>
+  </div>
+
+  <article class="art" id="art" style="display:none"></article>
+
+  <footer>Ofício 2026 · arquivo único · funciona offline depois de aberto uma vez com internet só pelas fontes.</footer>
+</div>
+<script>
+const OFICIO_DATA = [
+  {
+    "id": "gpx-whatsapp-garmin",
+    "tema": "eletronicos",
+    "titulo": "Passar um GPX do WhatsApp para o Garmin",
+    "resumo": "Baixar o track no Zap, achar a pasta Private e mover para Garmin/GPX com cabo OTG.",
+    "minutos": 10,
+    "material": [
+      "Celular Android",
+      "GPS Garmin",
+      "Cabo de dados",
+      "Adaptador OTG",
+      "App Files"
+    ],
+    "passos": [
+      "Toque no arquivo .gpx no WhatsApp e espere o download.",
+      "Abra o Files e entre em Armazenamento interno.",
+      "Siga Android > media > com.whatsapp > WhatsApp > Media > WhatsApp Documents > Private.",
+      "Segure o .gpx > três pontinhos > Mover para.",
+      "Ligue o Garmin, conecte o OTG e escolha o dispositivo GARMIN.",
+      "Entre em Garmin > GPX e toque em Mover para aqui.",
+      "Ejete o cabo e abra a trilha no GPS."
+    ],
+    "dica": "Use cabo que passa dados, não só energia.",
+    "aviso": "Não deixe o arquivo na raiz do Garmin."
+  },
+  {
+    "id": "limpar-privada",
+    "tema": "casa",
+    "titulo": "Como limpar a privada",
+    "resumo": "Desinfetar o vaso sem respingar e sem misturar produtos perigosos.",
+    "minutos": 15,
+    "material": [
+      "Luvas",
+      "Escova sanitária",
+      "Desinfetante sem cloro + amoníaco juntos",
+      "Papel toalha"
+    ],
+    "passos": [
+      "Coloque luvas.",
+      "Aplique o desinfetante sob a borda e deixe 5 a 10 minutos.",
+      "Escove o interior, inclusive atrás do sifão.",
+      "Dê descarga.",
+      "Passe pano no assento, tampa e base por fora.",
+      "Lave as mãos."
+    ],
+    "dica": "Vinagre + bicarbonato ajudam no cheiro.",
+    "aviso": "Nunca misture água sanitária com amoníaco ou vinagre em espaço fechado."
+  },
+  {
+    "id": "trocar-lampada",
+    "tema": "casa",
+    "titulo": "Como trocar uma lâmpada",
+    "resumo": "Trocar lâmpada queimada sem levar choque e sem quebrar o soquete.",
+    "minutos": 8,
+    "material": [
+      "Lâmpada nova do mesmo soquete (E27, E14, GU10…)",
+      "Escada firme se for alta"
+    ],
+    "passos": [
+      "Apague o interruptor.",
+      "Se possível, desligue o disjuntor do cômodo.",
+      "Espere a lâmpada velha esfriar.",
+      "Gire no sentido anti-horário até soltar.",
+      "Encaixe a nova sem forçar.",
+      "Ligue e teste."
+    ],
+    "dica": "Anote a potência e o tipo antes de comprar.",
+    "aviso": "Lâmpada de teto quente queima a mão — espere."
+  },
+  {
+    "id": "desentupir-pia",
+    "tema": "casa",
+    "titulo": "Desentupir a pia da cozinha",
+    "resumo": "Tirar gordura e resto de comida do sifão sem quebrar o cano.",
+    "minutos": 20,
+    "material": [
+      "Balde",
+      "Chave inglesa",
+      "Desentupidor",
+      "Luvas"
+    ],
+    "passos": [
+      "Coloque o balde sob o sifão.",
+      "Desrosqueie o sifão com a mão ou a chave.",
+      "Esvazie o lixo do copo do sifão.",
+      "Enxágue o cano.",
+      "Remonte apertando só o suficiente para não vazar.",
+      "Abra a torneira e confira."
+    ],
+    "dica": "Água quente com detergente dissolve gordura leve.",
+    "aviso": "Evite soda cáustica em sifão de plástico fino."
+  },
+  {
+    "id": "torneira-pingando",
+    "tema": "casa",
+    "titulo": "Trocar a vedação da torneira que pinga",
+    "resumo": "Fechar o registro, trocar o couro ou o cartucho e parar o gotejamento.",
+    "minutos": 25,
+    "material": [
+      "Registro fechado",
+      "Chave de grifo",
+      "Vedação ou cartucho novo"
+    ],
+    "passos": [
+      "Feche o registro do cômodo.",
+      "Abra a torneira para aliviar pressão.",
+      "Solte o volante e o cano.",
+      "Troque a borracha ou o cartucho.",
+      "Remonte e abra o registro devagar.",
+      "Confira se parou de pingar."
+    ],
+    "dica": "Leve a peça velha na loja para achar o tamanho.",
+    "aviso": ""
+  },
+  {
+    "id": "filtro-maquina-lavar",
+    "tema": "casa",
+    "titulo": "Limpar o filtro da máquina de lavar",
+    "resumo": "Tirar fiapo, moeda e água suja do filtro da frente.",
+    "minutos": 15,
+    "material": [
+      "Pano",
+      "Bacia rasa",
+      "Luvas"
+    ],
+    "passos": [
+      "Desligue a máquina da tomada.",
+      "Abra a portinhola inferior.",
+      "Puxe a mangueirinha de drenagem para um copo.",
+      "Desrosqueie o filtro no sentido anti-horário.",
+      "Tire cabelo, moeda e fiapo.",
+      "Encaixe de novo até ficar firme."
+    ],
+    "dica": "Faça isso uma vez por mês.",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-box",
+    "tema": "casa",
+    "titulo": "Limpar o box do banheiro",
+    "resumo": "Tirar sabão e mofo do vidro e do perfil de alumínio.",
+    "minutos": 20,
+    "material": [
+      "Vinagre branco",
+      "Bicarbonato",
+      "Pano microfibra",
+      "Rodo"
+    ],
+    "passos": [
+      "Misture vinagre e água 1:1 num borrifador.",
+      "Borrife o vidro e deixe 5 minutos.",
+      "Esfregue com o lado macio da esponja.",
+      "Passe bicarbonato na borracha mofada.",
+      "Enxágue e seque com o rodo."
+    ],
+    "dica": "Secar depois do banho evita o filme branco.",
+    "aviso": ""
+  },
+  {
+    "id": "mofo-parede",
+    "tema": "casa",
+    "titulo": "Tirar mofo da parede",
+    "resumo": "Limpar mancha preta em parede de banheiro ou quarto úmido.",
+    "minutos": 30,
+    "material": [
+      "Luvas",
+      "Máscara",
+      "Água sanitária diluída ou vinagre",
+      "Escova macia"
+    ],
+    "passos": [
+      "Abra a janela.",
+      "Dilua 1 parte de sanitária em 4 de água.",
+      "Passe na mancha e espere 10 minutos.",
+      "Esfregue de leve.",
+      "Enxágue com pano úmido.",
+      "Deixe secar e, se voltar, ache o vazamento."
+    ],
+    "dica": "Mofo que volta é umidade — só limpar não resolve.",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-chuveiro",
+    "tema": "casa",
+    "titulo": "Trocar o chuveiro elétrico",
+    "resumo": "Trocar o aparelho queimado com o disjuntor desligado.",
+    "minutos": 40,
+    "material": [
+      "Chuveiro novo da mesma voltagem",
+      "Chave de fenda",
+      "Fita isolante",
+      "Escada"
+    ],
+    "passos": [
+      "Desligue o disjuntor do chuveiro.",
+      "Confirme com a lâmpada de teste ou multímetro que não há energia.",
+      "Solte os fios e anote fase e neutro.",
+      "Desrosqueie a peça velha.",
+      "Fixe a nova e reconecte os fios.",
+      "Ligue o disjuntor e teste água fria primeiro."
+    ],
+    "dica": "Voltagem 127 ou 220 tem que ser a mesma da casa.",
+    "aviso": "Se não tiver certeza da fiação, chame eletricista."
+  },
+  {
+    "id": "fumaca-detector",
+    "tema": "casa",
+    "titulo": "Testar o detector de fumaça",
+    "resumo": "Saber se o alarme ainda funciona e quando trocar a pilha.",
+    "minutos": 5,
+    "material": [
+      "Pilha 9V se for o modelo antigo"
+    ],
+    "passos": [
+      "Aperte o botão de teste até o bipe.",
+      "Se não bipar, troque a pilha.",
+      "Aspire a poeira da grade.",
+      "Anote a data no fundo do aparelho."
+    ],
+    "dica": "Aparelho com mais de 10 anos deve ser trocado.",
+    "aviso": ""
+  },
+  {
+    "id": "organizar-caixa-luz",
+    "tema": "casa",
+    "titulo": "Identificar os disjuntores da caixa",
+    "resumo": "Descobrir qual disjuntor apaga cada cômodo e etiquetar.",
+    "minutos": 20,
+    "material": [
+      "Fita crepe",
+      "Caneta",
+      "Ajuda de outra pessoa ajuda"
+    ],
+    "passos": [
+      "Abra a caixa com o quadro visível.",
+      "Peça para alguém ficar no cômodo.",
+      "Desligue um disjuntor por vez.",
+      "Anote 'cozinha', 'chuveiro', 'tomadas quarto'.",
+      "Cole as etiquetas."
+    ],
+    "dica": "Nunca mexa nos parafusos da barra energizada.",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-geladeira",
+    "tema": "casa",
+    "titulo": "Limpar a geladeira por dentro",
+    "resumo": "Esvaziar, lavar prateleiras e evitar cheiro.",
+    "minutos": 40,
+    "material": [
+      "Bicarbonato",
+      "Pano",
+      "Tigela"
+    ],
+    "passos": [
+      "Esvazie os alimentos perecíveis para uma caixa térmica.",
+      "Tire prateleiras e gavetas.",
+      "Lave com água morna e bicarbonato.",
+      "Seque bem antes de recolocar.",
+      "Jogue o que venceu."
+    ],
+    "dica": "Um pote aberto de bicarbonato absorve cheiro.",
+    "aviso": ""
+  },
+  {
+    "id": "descongelar-freezer",
+    "tema": "casa",
+    "titulo": "Descongelar o freezer",
+    "resumo": "Tirar o bloco de gelo sem furar a parede do aparelho.",
+    "minutos": 90,
+    "material": [
+      "Toalhas",
+      "Espanador de plástico",
+      "Bacia"
+    ],
+    "passos": [
+      "Esvazie o freezer.",
+      "Desligue ou coloque em degelo.",
+      "Forre o chão com toalhas.",
+      "Deixe o gelo soltar sozinho.",
+      "Não use faca no fundo.",
+      "Ligue de novo quando estiver seco."
+    ],
+    "dica": "Uma camada fina de gelo já aumenta o gasto de energia.",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-forno",
+    "tema": "casa",
+    "titulo": "Limpar o forno engordurado",
+    "resumo": "Amolecer gordura queimada sem arranhar o esmalte.",
+    "minutos": 45,
+    "material": [
+      "Bicarbonato",
+      "Vinagre",
+      "Luva",
+      "Espátula de plástico"
+    ],
+    "passos": [
+      "Frio o forno.",
+      "Faça pasta de bicarbonato com água.",
+      "Passe nas paredes e deixe 30 minutos.",
+      "Solte a crosta com a espátula.",
+      "Borrife vinagre e limpe.",
+      "Aqueça 10 minutos vazio para secar."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "coifa-filtro",
+    "tema": "casa",
+    "titulo": "Limpar o filtro da coifa",
+    "resumo": "Desengordurar o filtro de alumínio da exaustão.",
+    "minutos": 25,
+    "material": [
+      "Água quente",
+      "Detergente",
+      "Bicarbonato"
+    ],
+    "passos": [
+      "Solte o filtro da coifa.",
+      "Deixe de molho 15 minutos em água quente com detergente.",
+      "Esfregue na direção das aletas.",
+      "Enxágue e deixe secar de pé.",
+      "Encaixe de volta."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-sifao",
+    "tema": "casa",
+    "titulo": "Trocar o sifão da pia",
+    "resumo": "Substituir o sifão rachado que pinga no armário.",
+    "minutos": 25,
+    "material": [
+      "Sifão novo do mesmo diâmetro",
+      "Balde",
+      "Fita veda rosca"
+    ],
+    "passos": [
+      "Balde embaixo.",
+      "Desrosqueie o antigo.",
+      "Limpe a rosca da pia.",
+      "Encaixe o novo com as gaxetas na ordem certa.",
+      "Aperte com a mão.",
+      "Teste com água."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "vedar-janela",
+    "tema": "casa",
+    "titulo": "Vedar janela que sopra vento",
+    "resumo": "Colocar burlete na fresta da janela de alumínio ou madeira.",
+    "minutos": 20,
+    "material": [
+      "Fita de vedação (burlete)",
+      "Álcool",
+      "Tesoura"
+    ],
+    "passos": [
+      "Limpe o perfil com álcool.",
+      "Meça a fresta.",
+      "Corte a fita.",
+      "Cole na parte fixa, não na folha que anda.",
+      "Feche e veja se ainda tranca."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "pintar-parede-quarto",
+    "tema": "casa",
+    "titulo": "Pintar uma parede de quarto",
+    "resumo": "Preparar, proteger o rodapé e pintar sem marca de rolo.",
+    "minutos": 180,
+    "material": [
+      "Tinta látex",
+      "Rolo",
+      "Fita crepe",
+      "Lona",
+      "Bandeja"
+    ],
+    "passos": [
+      "Tire os móveis ou cubra.",
+      "Corrija buracos com massa.",
+      "Passe fita no rodapé e no teto.",
+      "Corte os cantos com pincel.",
+      "Role em W sem parar no meio.",
+      "Segunda demão depois de seco."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "furar-parede-quadro",
+    "tema": "casa",
+    "titulo": "Pendurar um quadro na parede",
+    "resumo": "Achar o ponto, furar e usar bucha do tamanho certo.",
+    "minutos": 15,
+    "material": [
+      "Furadeira",
+      "Bucha e parafuso",
+      "Nível",
+      "Fita"
+    ],
+    "passos": [
+      "Marque a altura com o nível.",
+      "Se for drywall, use bucha específica.",
+      "Fure no diâmetro da bucha.",
+      "Encaixe a bucha.",
+      "Parafuse o gancho.",
+      "Pendure e afine o nível."
+    ],
+    "dica": "Evite furar onde passa cano — em geral 40–60 cm do canto do banheiro.",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-fechadura",
+    "tema": "casa",
+    "titulo": "Trocar a fechadura da porta",
+    "resumo": "Tirar a fechadura velha e encaixar uma nova do mesmo furo.",
+    "minutos": 30,
+    "material": [
+      "Fechadura nova",
+      "Chave de fenda"
+    ],
+    "passos": [
+      "Tire os parafusos da maçaneta.",
+      "Solte a frente da fechadura.",
+      "Retire o miolo.",
+      "Encaixe o novo alinhado com a lingueta.",
+      "Teste a chave antes de fechar a porta."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "lubrificar-dobradica",
+    "tema": "casa",
+    "titulo": "Calar porta que range",
+    "resumo": "Lubrificar dobradiça sem manchar o piso.",
+    "minutos": 8,
+    "material": [
+      "WD-40 ou óleo fino",
+      "Pano"
+    ],
+    "passos": [
+      "Abra a porta.",
+      "Passe uma gota no pino da dobradiça.",
+      "Abra e feche 10 vezes.",
+      "Limpe o excesso."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-resistencia-chuveiro",
+    "tema": "casa",
+    "titulo": "Trocar a resistência do chuveiro",
+    "resumo": "Só a resistência, sem trocar o aparelho inteiro.",
+    "minutos": 25,
+    "material": [
+      "Resistência do mesmo modelo",
+      "Chave"
+    ],
+    "passos": [
+      "Disjuntor off.",
+      "Solte a cúpula.",
+      "Tire a resistência queimada.",
+      "Encaixe a nova nos bornes sem cruzar os fios.",
+      "Feche e teste."
+    ],
+    "dica": "Modelo e voltagem têm que ser iguais.",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-ar-condicionado-filtro",
+    "tema": "casa",
+    "titulo": "Limpar o filtro do ar-condicionado",
+    "resumo": "Tirar o filtro da evaporadora e lavar o pó.",
+    "minutos": 15,
+    "material": [
+      "Água",
+      "Detergente neutro"
+    ],
+    "passos": [
+      "Desligue o aparelho.",
+      "Abra a tampa frontal.",
+      "Puxe os filtros.",
+      "Aspire ou lave com água fria.",
+      "Seque à sombra.",
+      "Encaixe de volta."
+    ],
+    "dica": "Filtro sujo aumenta conta de luz e cheiro de mofo.",
+    "aviso": ""
+  },
+  {
+    "id": "sangrar-registro",
+    "tema": "casa",
+    "titulo": "Tirar ar da torneira que cospe",
+    "resumo": "Quando a torneira treme depois de falta d'água.",
+    "minutos": 10,
+    "material": [
+      "Pano"
+    ],
+    "passos": [
+      "Abra todas as torneiras devagar.",
+      "Deixe correr até sair água contínua.",
+      "Feche da mais alta para a mais baixa.",
+      "Se o chuveiro espirrar, abra o registro um pouco."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-maquina-cafe",
+    "tema": "casa",
+    "titulo": "Limpar a máquina de café",
+    "resumo": "Descincar com vinagre ou produto próprio.",
+    "minutos": 30,
+    "material": [
+      "Vinagre branco",
+      "Água"
+    ],
+    "passos": [
+      "Esvazie o reservatório.",
+      "Coloque vinagre e água 1:1.",
+      "Rode um ciclo sem café.",
+      "Rode dois ciclos só com água.",
+      "Lave o filtro e a jarra."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "organizar-gaveta-cozinha",
+    "tema": "casa",
+    "titulo": "Organizar a gaveta da cozinha",
+    "resumo": "Separar talher, pano e treco que some.",
+    "minutos": 20,
+    "material": [
+      "Divisórias ou potes baixos"
+    ],
+    "passos": [
+      "Esvazie a gaveta.",
+      "Jogue o que está quebrado.",
+      "Agrupe por uso.",
+      "Use um pote para elásticos e clipes.",
+      "Deixe o que usa todo dia na frente."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-microondas",
+    "tema": "casa",
+    "titulo": "Limpar o micro-ondas que cheira a queimado",
+    "resumo": "Amolecer respingo com vapor de limão.",
+    "minutos": 15,
+    "material": [
+      "Limão ou vinagre",
+      "Tigela"
+    ],
+    "passos": [
+      "Tigela com água e rodelas de limão.",
+      "Ligue 3 minutos.",
+      "Espere 2 minutos com a porta fechada.",
+      "Passe pano úmido nas paredes.",
+      "Lave o prato giratório."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-bagum-geladeira",
+    "tema": "casa",
+    "titulo": "Trocar o magnético da porta da geladeira",
+    "resumo": "Quando a porta não veda e pinga água no chão.",
+    "minutos": 35,
+    "material": [
+      "Borrachão novo do modelo",
+      "Secador"
+    ],
+    "passos": [
+      "Puxe a gaxeta velha a partir de um canto.",
+      "Encaixe a nova no canal.",
+      "Aqueça de leve com o secador para assentar.",
+      "Feche e teste com uma folha de papel — se sair fácil, ainda vaza."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-azulejo-rejunte",
+    "tema": "casa",
+    "titulo": "Embranquecer rejunte escuro",
+    "resumo": "Escovar o rejunte do box sem riscar o azulejo.",
+    "minutos": 40,
+    "material": [
+      "Pasta de bicarbonato",
+      "Escova de dente velha",
+      "Vinagre"
+    ],
+    "passos": [
+      "Faça pasta.",
+      "Esfregue no rejunte.",
+      "Borrife vinagre.",
+      "Espere borbulhar.",
+      "Enxágue."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "calafetar-pia",
+    "tema": "casa",
+    "titulo": "Calafetar a pia que vive molhando o armário",
+    "resumo": "Passar silicone sanitário na junta da cubas.",
+    "minutos": 25,
+    "material": [
+      "Silicone sanitário",
+      "Álcool",
+      "Fita crepe"
+    ],
+    "passos": [
+      "Seque tudo.",
+      "Tire o silicone velho.",
+      "Passe fita nas duas bordas.",
+      "Aplique um filete contínuo.",
+      "Alise com o dedo molhado.",
+      "Tire a fita na hora."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "plantar-manjericao",
+    "tema": "jardim",
+    "titulo": "Plantar manjericão em vaso",
+    "resumo": "Sol da manhã, terra solta e o ponto certo de água.",
+    "minutos": 20,
+    "material": [
+      "Vaso com furo",
+      "Terra vegetal",
+      "Muda ou semente"
+    ],
+    "passos": [
+      "Furos e uma camada de pedrisco no fundo.",
+      "Encha com terra solta.",
+      "Plante a muda na altura do torrão.",
+      "Regue até sair água no fundo.",
+      "Coloque em sol de 4 a 6 horas.",
+      "Colha as pontas para ramificar."
+    ],
+    "dica": "Folha mole demais = água demais.",
+    "aviso": ""
+  },
+  {
+    "id": "compostagem",
+    "tema": "jardim",
+    "titulo": "Começar uma composteira caseira",
+    "resumo": "O que vai, o que não vai, e como evitar cheiro.",
+    "minutos": 30,
+    "material": [
+      "Balde com tampa ou minhocário",
+      "Restos crus",
+      "Folha seca"
+    ],
+    "passos": [
+      "Alterne camada úmida (resto de fruta) e seca (folha, papelão).",
+      "Não coloque carne, laticínio nem gordura.",
+      "Misture uma vez por semana.",
+      "Se cheirar, acrescente seco.",
+      "O húmus sai em algumas semanas no fundo."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "regar-vaso",
+    "tema": "jardim",
+    "titulo": "Saber quando regar o vaso",
+    "resumo": "O dedo na terra vale mais que o calendário.",
+    "minutos": 5,
+    "material": [
+      "Dedo ou palito"
+    ],
+    "passos": [
+      "Enfie o dedo 2 cm na terra.",
+      "Se sair sujo e frio, espere.",
+      "Se sair seco, regue até escorrer.",
+      "Esvazie o pratinho depois de 15 minutos."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "podar-roseira",
+    "tema": "jardim",
+    "titulo": "Podar roseira no tempo certo",
+    "resumo": "Corte enviesado acima de uma gema virada para fora.",
+    "minutos": 25,
+    "material": [
+      "Tesoura de poda limpa",
+      "Álcool"
+    ],
+    "passos": [
+      "Limpe a tesoura.",
+      "Tire galho seco e doente.",
+      "Corte 0,5 cm acima de uma gema externa.",
+      "Abra o centro da planta para o ar passar.",
+      "Regue."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "plantar-alface",
+    "tema": "jardim",
+    "titulo": "Plantar alface em jardineira",
+    "resumo": "Folha rápida para varanda.",
+    "minutos": 20,
+    "material": [
+      "Jardineira 20 cm de fundo",
+      "Mudas",
+      "Terra"
+    ],
+    "passos": [
+      "Espaçamento de um palmo entre mudas.",
+      "Sol da manhã.",
+      "Terra sempre levemente úmida.",
+      "Colha as folhas de fora primeiro."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "formiga-vaso",
+    "tema": "jardim",
+    "titulo": "Afastar formiga do vaso sem veneno forte",
+    "resumo": "Canela, borra de café e água com detergente.",
+    "minutos": 10,
+    "material": [
+      "Canela em pó",
+      "Borra de café"
+    ],
+    "passos": [
+      "Tire o pratinho cheio d'água parada.",
+      "Polvilhe canela na borda.",
+      "Borra de café por cima da terra.",
+      "Acompanhe o caminho e tape o ninho no jardim."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "replantar-vaso-apertado",
+    "tema": "jardim",
+    "titulo": "Replantar planta que estourou o vaso",
+    "resumo": "Quando a raiz sai pelo furo de baixo.",
+    "minutos": 25,
+    "material": [
+      "Vaso um número maior",
+      "Terra nova"
+    ],
+    "passos": [
+      "Regue a planta no dia anterior.",
+      "Vire o vaso e solte o torrão.",
+      "Solte um pouco as raízes emaranhadas.",
+      "Sente no vaso novo na mesma altura.",
+      "Complete terra e regue."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "hortela-invasora",
+    "tema": "jardim",
+    "titulo": "Plantar hortelã sem invadir o canteiro",
+    "resumo": "Hortelã só em vaso — ela corre por baixo da terra.",
+    "minutos": 15,
+    "material": [
+      "Vaso próprio"
+    ],
+    "passos": [
+      "Nunca solte hortelã direto no canteiro.",
+      "Vaso com 20 cm.",
+      "Sol e água frequente.",
+      "Corte as pontas para não florescer cedo."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "adubo-caseiro",
+    "tema": "jardim",
+    "titulo": "Fazer adubo de casca de ovo e banana",
+    "resumo": "Cálcio e potássio baratos para vaso.",
+    "minutos": 15,
+    "material": [
+      "Cascas secas",
+      "Liquidificador ou saco"
+    ],
+    "passos": [
+      "Seque as cascas no sol.",
+      "Triture fino.",
+      "Espalhe na terra e cubra.",
+      "Não encoste no caule."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "regador-furado",
+    "tema": "jardim",
+    "titulo": "Furinhos no fundo da garrafa pet para gotejar",
+    "resumo": "Rega lenta quando viaja o fim de semana.",
+    "minutos": 10,
+    "material": [
+      "Garrafa pet",
+      "Agulha"
+    ],
+    "passos": [
+      "Fure a tampa 3 vezes.",
+      "Encha d'água.",
+      "Enterre o pescoço na terra.",
+      "Ajuste o número de furos se encharcar."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "muda-suculenta",
+    "tema": "jardim",
+    "titulo": "Fazer muda de suculenta pela folha",
+    "resumo": "Folha sã, sombra e paciência.",
+    "minutos": 10,
+    "material": [
+      "Folha inteira",
+      "Terra arenosa"
+    ],
+    "passos": [
+      "Torça a folha inteira.",
+      "Deixe cicatrizar 2 dias.",
+      "Apoie sobre terra seca.",
+      "Borrife de leve quando nascer raiz."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-ferramenta-jardim",
+    "tema": "jardim",
+    "titulo": "Limpar tesoura de poda enferrujada",
+    "resumo": "Vinagre, palha de aço e óleo.",
+    "minutos": 20,
+    "material": [
+      "Vinagre",
+      "Palha de aço",
+      "Óleo"
+    ],
+    "passos": [
+      "Deixe as lâminas de molho no vinagre 20 minutos.",
+      "Esfregue.",
+      "Seque.",
+      "Passe óleo fino."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "grama-amarela",
+    "tema": "jardim",
+    "titulo": "Entender grama amarela",
+    "resumo": "Pode ser água de menos, de mais ou urina de cachorro.",
+    "minutos": 15,
+    "material": [
+      "Regador",
+      "Areia"
+    ],
+    "passos": [
+      "Se o solo está duro e claro, regue fundo de manhã.",
+      "Se está lodoso, pare a água.",
+      "Mancha redonda de pet: lave com água na hora.",
+      "Adube só se a folha nova nascer pálida."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "horta-tempero",
+    "tema": "jardim",
+    "titulo": "Horta de tempero na janela",
+    "resumo": "Salsinha, cebolinha e manjericão juntos.",
+    "minutos": 25,
+    "material": [
+      "3 vasos ou uma jardineira",
+      "Sol"
+    ],
+    "passos": [
+      "Cada tempero no seu vaso evita raiz brigando.",
+      "4 horas de sol.",
+      "Colha com tesoura, não arranque o tufo.",
+      "Replante salsinha todo ano."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "espantar-pulgao",
+    "tema": "jardim",
+    "titulo": "Espantar pulgão com sabão neutro",
+    "resumo": "Spray barato que não queima a folha se estiver na sombra.",
+    "minutos": 15,
+    "material": [
+      "Detergente neutro",
+      "Borrifador"
+    ],
+    "passos": [
+      "1 colher de detergente em 1 litro d'água.",
+      "Borrife o verso da folha.",
+      "Faça no fim da tarde.",
+      "Repita em 3 dias."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "cabo-dados-ou-carga",
+    "tema": "eletronicos",
+    "titulo": "Saber se o cabo só carrega ou passa arquivo",
+    "resumo": "O teste que evita o Garmin invisível.",
+    "minutos": 5,
+    "material": [
+      "Cabo",
+      "Celular",
+      "Pendrive ou GPS"
+    ],
+    "passos": [
+      "Conecte o GPS ou um pendrive no celular com OTG.",
+      "Se o Files mostrar pastas, o cabo tem dados.",
+      "Se só esquenta e não aparece nada, é cabo de carga.",
+      "Marque os cabos com fita."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-fone-ouvido",
+    "tema": "eletronicos",
+    "titulo": "Limpar fone que perdeu o grave",
+    "resumo": "Cera na grade mata o som.",
+    "minutos": 10,
+    "material": [
+      "Palito",
+      "Escova seca",
+      "Álcool só no silicone"
+    ],
+    "passos": [
+      "Tire a capinha de silicone.",
+      "Escove a grade seca.",
+      "Não derrame líquido no driver.",
+      "Lave só o silicone."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "economizar-bateria-celular",
+    "tema": "eletronicos",
+    "titulo": "Segurar a bateria do celular no fim do dia",
+    "resumo": "Brilho, 5G e app em segundo plano.",
+    "minutos": 5,
+    "material": [
+      "O próprio celular"
+    ],
+    "passos": [
+      "Brilho automático ou baixo.",
+      "Desligue 5G se o sinal for ruim.",
+      "Feche GPS se não estiver na rua.",
+      "Modo economia quando passar de 20%."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "backup-fotos-whatsapp",
+    "tema": "eletronicos",
+    "titulo": "Não perder foto do WhatsApp",
+    "resumo": "O Zap apaga mídia antiga do aparelho.",
+    "minutos": 10,
+    "material": [
+      "Google Fotos ou cabo"
+    ],
+    "passos": [
+      "No Zap: Configurações > Chat > Backup.",
+      "Além disso, copie a pasta WhatsApp/Media no computador.",
+      "Não confie só no backup do próprio Zap."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "resetar-roteador",
+    "tema": "eletronicos",
+    "titulo": "Reiniciar o roteador quando a internet cai",
+    "resumo": "90% das 'quedas' se resolvem assim.",
+    "minutos": 8,
+    "material": [
+      "Tomada do modem"
+    ],
+    "passos": [
+      "Desligue o modem da tomada.",
+      "Espere 30 segundos.",
+      "Ligue.",
+      "Espere os LEDs estabilizarem.",
+      "Se voltar todo dia, fale com a operadora."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "senha-wifi-visita",
+    "tema": "eletronicos",
+    "titulo": "Criar rede de visita no Wi-Fi",
+    "resumo": "Visita na internet sem ver seu notebook.",
+    "minutos": 10,
+    "material": [
+      "Celular no app do roteador"
+    ],
+    "passos": [
+      "Abra o app da operadora ou 192.168.0.1.",
+      "Procure Guest / Rede de visita.",
+      "Crie senha temporária.",
+      "Desligue quando o visitante for embora."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-teclado-notebook",
+    "tema": "eletronicos",
+    "titulo": "Limpar teclado de notebook",
+    "resumo": "Migalha e poeira sem derramar líquido.",
+    "minutos": 15,
+    "material": [
+      "Ar comprimido ou pincel",
+      "Álcool isopropílico no pano"
+    ],
+    "passos": [
+      "Desligue.",
+      "Vire e sacuda.",
+      "Pincel entre as teclas.",
+      "Pano levemente úmido por cima, nunca pingando."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "atualizar-aplicativo",
+    "tema": "eletronicos",
+    "titulo": "Atualizar app que ficou lento",
+    "resumo": "Play Store e limpeza de cache.",
+    "minutos": 8,
+    "material": [
+      "Wi-Fi"
+    ],
+    "passos": [
+      "Play Store > seu perfil > Gerenciar apps.",
+      "Atualize o que estiver pendente.",
+      "Se continuar lento: Info do app > Limpar cache (não limpe dados sem backup)."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "tv-sem-som",
+    "tema": "eletronicos",
+    "titulo": "TV ligada sem som",
+    "resumo": "Mudo, ARC e controle errado.",
+    "minutos": 8,
+    "material": [
+      "Controle da TV"
+    ],
+    "passos": [
+      "Veja se não está no mudo.",
+      "Volume da barra de som separado.",
+      "Na TV, saída de áudio: TV speakers.",
+      "Tire o HDMI e coloque de novo."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "pendrive-nao-abre",
+    "tema": "eletronicos",
+    "titulo": "Pendrive que o computador não abre",
+    "resumo": "Testar porta, formatar só se não tiver arquivo único.",
+    "minutos": 15,
+    "material": [
+      "Outro cabo ou porta USB"
+    ],
+    "passos": [
+      "Tente outra porta.",
+      "No celular com OTG, veja se as pastas aparecem.",
+      "Se pedir formatar, copie antes o que der.",
+      "Formate em FAT32 para TV e GPS."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "calibrar-bussola-celular",
+    "tema": "eletronicos",
+    "titulo": "Mapa do celular apontando errado",
+    "resumo": "Calibrar a bússola em oito.",
+    "minutos": 3,
+    "material": [
+      "Celular"
+    ],
+    "passos": [
+      "Abra o mapa.",
+      "Gire o aparelho em formato de 8.",
+      "Afaste de ímã, capa magnética e alto-falante."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "impressora-offline",
+    "tema": "eletronicos",
+    "titulo": "Impressora que aparece offline",
+    "resumo": "Fila travada e Wi-Fi da impressora.",
+    "minutos": 12,
+    "material": [
+      "Painel da impressora"
+    ],
+    "passos": [
+      "Cancele todos os trabalhos da fila.",
+      "Reinicie a impressora.",
+      "Confira se está no mesmo Wi-Fi do computador.",
+      "Imprima uma página de teste no painel."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-tela-celular",
+    "tema": "eletronicos",
+    "titulo": "Limpar a tela do celular sem manchar",
+    "resumo": "Pano de óculos, sem papel toalha seco.",
+    "minutos": 3,
+    "material": [
+      "Pano de microfibra"
+    ],
+    "passos": [
+      "Desligue a tela.",
+      "Pano seco primeiro.",
+      "Se precisar, pano levemente úmido.",
+      "Evite álcool em excesso na oleophobic."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "organizar-cabos",
+    "tema": "eletronicos",
+    "titulo": "Organizar o emaranhado de cabos atrás da TV",
+    "resumo": "Abraçadeira e etiqueta.",
+    "minutos": 20,
+    "material": [
+      "Abraçadeira",
+      "Fita"
+    ],
+    "passos": [
+      "Desligue da tomada.",
+      "Etiquete cada cabo antes de soltar.",
+      "Agrupe por aparelho.",
+      "Deixe folga para não puxar o HDMI."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "powerbank-parado",
+    "tema": "eletronicos",
+    "titulo": "Powerbank que não carrega mais o celular",
+    "resumo": "Ciclo, cabo e o botão de ligar.",
+    "minutos": 8,
+    "material": [
+      "Cabo de dados"
+    ],
+    "passos": [
+      "Aperte o botão do powerbank.",
+      "Troque o cabo.",
+      "Carregue o banco até o LED cheio.",
+      "Se esquentar parado, aposente — bateria inchada não se usa."
+    ],
+    "dica": "",
+    "aviso": "Bateria inchada: pare de usar."
+  },
+  {
+    "id": "despertador-silencio",
+    "tema": "eletronicos",
+    "titulo": "Despertador que não toca no Android",
+    "resumo": "Não perturbe e volume de alarme separado.",
+    "minutos": 5,
+    "material": [
+      "Celular"
+    ],
+    "passos": [
+      "Volume de alarme no máximo.",
+      "Desligue Não perturbe ou autorize o relógio.",
+      "Tire a economia de bateria do app Relógio.",
+      "Teste um alarme para daqui 1 minuto."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "gps-offline-mapa",
+    "tema": "eletronicos",
+    "titulo": "Baixar mapa offline no celular",
+    "resumo": "Trilha sem sinal.",
+    "minutos": 10,
+    "material": [
+      "Wi-Fi",
+      "Google Maps ou app de trilha"
+    ],
+    "passos": [
+      "Maps > seu perfil > Mapas offline.",
+      "Baixe a região.",
+      "No mato, ative só o GPS, não precisa de dados."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-contato-pilha",
+    "tema": "eletronicos",
+    "titulo": "Controle que não liga mesmo com pilha nova",
+    "resumo": "Ferrugem no mola.",
+    "minutos": 8,
+    "material": [
+      "Vinagre no cotonete",
+      "Lixa fina"
+    ],
+    "passos": [
+      "Tire as pilhas.",
+      "Esfregue os contatos.",
+      "Um pouco de vinagre na oxidação verde.",
+      "Seque e coloque pilhas novas."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "ssd-lento-pc",
+    "tema": "eletronicos",
+    "titulo": "PC que abriu lento do nada",
+    "resumo": "Inicialização e espaço no disco.",
+    "minutos": 15,
+    "material": [
+      "O próprio Windows ou o celular não se aplica — no PC"
+    ],
+    "passos": [
+      "Veja se o disco está com menos de 15% livre.",
+      "Desinstale o que não usa.",
+      "Reinicie.",
+      "No gerenciador de tarefas, veja o que sobe com o Windows."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "camera-embacada",
+    "tema": "eletronicos",
+    "titulo": "Câmera do celular embasada",
+    "resumo": "Umidade entre o vidro e a lente.",
+    "minutos": 30,
+    "material": [
+      "Pacote de arroz ou sílica",
+      "Pano"
+    ],
+    "passos": [
+      "Desligue.",
+      "Deixe num pote com sílica ou arroz 24 h.",
+      "Não use secador quente perto da lente.",
+      "Se persistir, é junta rompida."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "whatsapp-dois-celulares",
+    "tema": "eletronicos",
+    "titulo": "Usar o mesmo WhatsApp no celular e no computador",
+    "resumo": "WhatsApp Web sem perder o telefone.",
+    "minutos": 5,
+    "material": [
+      "Navegador"
+    ],
+    "passos": [
+      "No telefone: Aparelhos conectados.",
+      "No computador abra web.whatsapp.com.",
+      "Leia o QR.",
+      "Não clique em sair do telefone."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-ventilador",
+    "tema": "casa",
+    "titulo": "Limpar ventilador engordurado",
+    "resumo": "Pá por pá, sem molhar o motor.",
+    "minutos": 25,
+    "material": [
+      "Chave",
+      "Detergente",
+      "Pano"
+    ],
+    "passos": [
+      "Desligue da tomada.",
+      "Solte a grade.",
+      "Lave as pás e a grade.",
+      "Pano só úmido no motor.",
+      "Seque antes de ligar."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-pilha-relogio-parede",
+    "tema": "casa",
+    "titulo": "Trocar a pilha do relógio de parede",
+    "resumo": "Quando o ponteiro dos segundos dá um tic e volta.",
+    "minutos": 5,
+    "material": [
+      "Pilha AA"
+    ],
+    "passos": [
+      "Abra a tampa.",
+      "Respeite + e −.",
+      "Se o relógio atrasar com pilha nova, é o mecanismo."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "passar-pano-chao",
+    "tema": "casa",
+    "titulo": "Lavar o chão sem deixar marca",
+    "resumo": "Do fundo da casa para a porta, água pouco suja.",
+    "minutos": 20,
+    "material": [
+      "Balde",
+      "Detergente neutro",
+      "Rodo"
+    ],
+    "passos": [
+      "Varra primeiro.",
+      "Água morna com pouco produto.",
+      "Faixas do fundo para a saída.",
+      "Troque a água quando escurecer.",
+      "Não encharque taco de madeira."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "organizar-geladeira",
+    "tema": "casa",
+    "titulo": "Organizar a geladeira para não estragar comida",
+    "resumo": "Prateleira certa para cada coisa.",
+    "minutos": 20,
+    "material": [
+      "Potes transparentes"
+    ],
+    "passos": [
+      "Porta: molho e bebida, não leite.",
+      "Gaveta: folha e fruta.",
+      "Prateleira de cima: resto pronto.",
+      "Fundo: carne crua bem fechada."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-espelho",
+    "tema": "casa",
+    "titulo": "Limpar espelho sem fiapo",
+    "resumo": "Jornal ou microfibra, nunca papel toalha grosso.",
+    "minutos": 8,
+    "material": [
+      "Vidrex ou vinagre",
+      "Microfibra"
+    ],
+    "passos": [
+      "Borrife no pano, não no espelho.",
+      "Faça um W.",
+      "Acabe com pano seco."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "tirar-cheiro-lixo",
+    "tema": "casa",
+    "titulo": "Tirar cheiro do lixo da cozinha",
+    "resumo": "Balde, saco certo e bicarbonato.",
+    "minutos": 10,
+    "material": [
+      "Bicarbonato",
+      "Saco que serve"
+    ],
+    "passos": [
+      "Lave o balde com detergente.",
+      "Seque.",
+      "Coloque bicarbonato no fundo.",
+      "Aperte bem o saco de resto de comida."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "dobrar-lencol-elastico",
+    "tema": "casa",
+    "titulo": "Dobrar lençol de elástico",
+    "resumo": "O truque de meter um canto no outro.",
+    "minutos": 5,
+    "material": [
+      "Lençol"
+    ],
+    "passos": [
+      "Meta as duas mãos nos cantos curtos.",
+      "Una os cantos.",
+      "Dobre ao meio.",
+      "Reto no armário."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "aspirar-sofa",
+    "tema": "casa",
+    "titulo": "Tirar migalha do sofá",
+    "resumo": "Bico estreito e almofada no chão.",
+    "minutos": 15,
+    "material": [
+      "Aspirador"
+    ],
+    "passos": [
+      "Tire as almofadas.",
+      "Aspire as frestas.",
+      "Bata as almofadas fora de casa.",
+      "Vire o assento se for solto."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-varal",
+    "tema": "casa",
+    "titulo": "Limpar varal que mancha roupa",
+    "resumo": "Ferrugem e pó no arame.",
+    "minutos": 15,
+    "material": [
+      "Esponja",
+      "Vinagre"
+    ],
+    "passos": [
+      "Esfregue o arame.",
+      "Vinagre na ferrugem.",
+      "Seque.",
+      "Pano no começo da roupa evita risco."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "passar-camisa",
+    "tema": "casa",
+    "titulo": "Passar camisa social sem marca feia",
+    "resumo": "Colarinho primeiro, costas por último.",
+    "minutos": 12,
+    "material": [
+      "Ferro",
+      "Gancho"
+    ],
+    "passos": [
+      "Colarinho pelo avesso.",
+      "Palas.",
+      "Mangas.",
+      "Frente.",
+      "Costas.",
+      "Pendure na hora."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "tirar-mancha-cafe",
+    "tema": "casa",
+    "titulo": "Tirar mancha de café de camiseta clara",
+    "resumo": "Água fria na hora, não água quente.",
+    "minutos": 10,
+    "material": [
+      "Sabão de pedra",
+      "Água fria"
+    ],
+    "passos": [
+      "Não esfregue com água quente.",
+      "Molhe o avesso.",
+      "Sabão na mancha.",
+      "Deixe 10 minutos.",
+      "Lave normal."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "costura-botao",
+    "tema": "casa",
+    "titulo": "Costurar botão que caiu",
+    "resumo": "Quatro furos, nó atrás.",
+    "minutos": 10,
+    "material": [
+      "Agulha",
+      "Linha da cor",
+      "Botão"
+    ],
+    "passos": [
+      "Dê um nó na linha.",
+      "Suba por um furo e desça no cruzado.",
+      "Repita 4 vezes.",
+      "Passe a linha por baixo das pontes e dê nó."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-tenis-branco",
+    "tema": "casa",
+    "titulo": "Limpar tênis branco de lona",
+    "resumo": "Bicarbonato e escova de dente.",
+    "minutos": 20,
+    "material": [
+      "Bicarbonato",
+      "Escova",
+      "Sabão"
+    ],
+    "passos": [
+      "Tire o cadarço.",
+      "Pasta de bicarbonato.",
+      "Escove.",
+      "Seque à sombra, nunca no forno."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "organizar-guarda-roupa",
+    "tema": "casa",
+    "titulo": "Virar o guarda-roupa que não fecha",
+    "resumo": "Cabide para o que cai, dobra para o resto.",
+    "minutos": 40,
+    "material": [
+      "Saco de doação"
+    ],
+    "passos": [
+      "Tudo para fora.",
+      "Dois montes: usa / não usa.",
+      "Pendure camisa e casaco.",
+      "Dobre malha.",
+      "Caixa para fora de estação."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-saco-aspirador",
+    "tema": "casa",
+    "titulo": "Trocar o saco do aspirador",
+    "resumo": "Quando o cheiro volta mesmo depois de aspirar.",
+    "minutos": 8,
+    "material": [
+      "Saco do modelo"
+    ],
+    "passos": [
+      "Desligue.",
+      "Abra o compartimento.",
+      "Feche a boca do saco velho.",
+      "Encaixe o novo até o clique."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "limpar-vaso-sanitario-em-volta",
+    "tema": "casa",
+    "titulo": "Limpar o chão atrás da privada",
+    "resumo": "O canto que ninguém vê.",
+    "minutos": 10,
+    "material": [
+      "Escova",
+      "Desinfetante"
+    ],
+    "passos": [
+      "Afaste o tapete.",
+      "Passe desinfetante na base.",
+      "Escove o parafuso e o canto do rejunte.",
+      "Seque."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "trocar-rolha-torneira-jardim",
+    "tema": "jardim",
+    "titulo": "Trocar a vedação da torneira do quintal",
+    "resumo": "A torneira do jardim que pinga o verão inteiro.",
+    "minutos": 15,
+    "material": [
+      "Vedação nova",
+      "Chave"
+    ],
+    "passos": [
+      "Feche o registro do quintal.",
+      "Desmonte o volante.",
+      "Troque a borracha.",
+      "Abra e teste."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "plantar-tomate-vaso",
+    "tema": "jardim",
+    "titulo": "Tomate-cereja em vaso grande",
+    "resumo": "Precisa de sol cheio e tutor.",
+    "minutos": 30,
+    "material": [
+      "Vaso 20 L",
+      "Tutor",
+      "Muda"
+    ],
+    "passos": [
+      "Vaso fundo.",
+      "Tutor na hora do plantio.",
+      "Sol o dia todo.",
+      "Regue a terra, não a folha.",
+      "Pince as brotações da axila se quiser mais fruto."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "guardar-semente",
+    "tema": "jardim",
+    "titulo": "Guardar semente de pimenta e tomate",
+    "resumo": "Secar e envelope de papel.",
+    "minutos": 20,
+    "material": [
+      "Papel toalha",
+      "Envelope"
+    ],
+    "passos": [
+      "Retire a semente.",
+      "Lave a baba.",
+      "Seque 3 dias à sombra.",
+      "Envelope com nome e data.",
+      "Geladeira, não freezer."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "canteiro-alto",
+    "tema": "jardim",
+    "titulo": "Montar um canteiro elevado de tijolo",
+    "resumo": "Menos dor nas costas e terra solta.",
+    "minutos": 120,
+    "material": [
+      "Tijolo",
+      "Lona",
+      "Terra"
+    ],
+    "passos": [
+      "Nivele o chão.",
+      "Empilhe duas ou três fiadas.",
+      "Fure a lona no fundo.",
+      "Encha com terra e composto.",
+      "Regue para assentar."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "cobertura-morta",
+    "tema": "jardim",
+    "titulo": "Cobrir a terra com folha seca",
+    "resumo": "Mulch que segura água e tapa erva.",
+    "minutos": 15,
+    "material": [
+      "Folha seca"
+    ],
+    "passos": [
+      "Regue a terra.",
+      "Cubra 3 cm de folha.",
+      "Afaste 2 cm do caule."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "regar-de-manha",
+    "tema": "jardim",
+    "titulo": "Regar de manhã e não à noite",
+    "resumo": "Folha molhada de noite vira fungo.",
+    "minutos": 10,
+    "material": [
+      "Mangueira"
+    ],
+    "passos": [
+      "Regue cedo.",
+      "Molhe o pé, não a folhagem.",
+      "Poucas vezes fundo vale mais que todo dia pingando."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "identificar-praga-folha",
+    "tema": "jardim",
+    "titulo": "Ler a folha furada",
+    "resumo": "Buraco redondo, prateado ou meia folha.",
+    "minutos": 10,
+    "material": [
+      "Olhos"
+    ],
+    "passos": [
+      "Furo irregular: lagarta — procure de noite.",
+      "Prateado: ácaro.",
+      "Folha enrolada: pulgão no broto.",
+      "Trate só o que viu."
+    ],
+    "dica": "",
+    "aviso": ""
+  },
+  {
+    "id": "vaso-sem-furo",
+    "tema": "jardim",
+    "titulo": "Salvar planta em vaso sem furo",
+    "resumo": "Camada de pedra não resolve encharcamento.",
+    "minutos": 15,
+    "material": [
+      "Furadeira com broca para vaso ou cachepô"
+    ],
+    "passos": [
+      "Prefira um cachepô: vaso interno furado, vaso de fora só bonito.",
+      "Se furar cerâmica, fita e broca de vidro em baixa rotação.",
+      "Esvazie prato depois da chuva."
+    ],
+    "dica": "",
+    "aviso": ""
+  }
+];
+
+
+const FIGS = {
+  "gpx-whatsapp-garmin": [
+    "imagens/V9XQh.jpg",
+    "imagens/S1tIG.jpg",
+    "imagens/VpfyE.jpg",
+    "imagens/l8JkZ.jpg",
+    "imagens/pfhDj.jpg",
+    "imagens/3iIs1.jpg",
+    "imagens/QLSNA.jpg"
+  ],
+  "limpar-privada": ["imagens/privada.jpg","imagens/privada.jpg"],
+  "trocar-lampada": ["imagens/lampada.jpg","imagens/lampada2.jpg"],
+  "plantar-manjericao": ["imagens/manjericao.jpg"]
+};
+const temaLabel = { casa: "Casa", jardim: "Jardim", eletronicos: "Eletrônicos" };
+const pill = { casa: "p-casa", jardim: "p-jardim", eletronicos: "p-eletronicos" };
+function norm(s){return (s||"").toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");}
+function $(s){return document.querySelector(s)}
+let tema="todos";
+function route(){
+  const hash=location.hash.replace(/^#/, "");
+  const m=hash.match(/^\/t\/([^/?]+)/);
+  if(m) showArt(m[1]);
+  else showHome();
+}
+function showHome(){
+  document.title="Ofício — 90 tutoriais";
+  $("#home").style.display="block";
+  $("#art").style.display="none";
+  render();
+  window.scrollTo(0,0);
+}
+function showArt(id){
+  const t=OFICIO_DATA.find(x=>x.id===id);
+  const el=$("#art");
+  $("#home").style.display="none";
+  el.style.display="block";
+  if(!t){el.innerHTML='<p>Não achei esse tutorial. <a class="back" href="#/">Voltar</a></p>';return;}
+  document.title=t.titulo+" — Ofício";
+  el.innerHTML=`
+    <p><a class="back" href="#/">← Menu</a></p>
+    <span class="pill ${pill[t.tema]}">${temaLabel[t.tema]}</span>
+    <h1>${t.titulo}</h1>
+    <p class="lead">${t.resumo}</p>
+    <p class="meta">${t.minutos} min · ${t.passos.length} passos</p>
+    <h2>O que você precisa</h2>
+    <ul>${t.material.map(m=>"<li>"+m+"</li>").join("")}</ul>
+    <h2>Passo a passo</h2>
+    ${(FIGS[t.id]||[]).length ? "" : "<ol>"+t.passos.map(p=>"<li>"+p+"</li>").join("")+"</ol>"}
+    ${t.passos.map((p,i)=>{
+      const img=(FIGS[t.id]||[])[i];
+      return `<div class="step"><span class="n">${i+1}</span>${p}${img?`<figure class="fig"><img src="${img}" alt="Passo ${i+1}"><figcaption>Exemplo do passo ${i+1}</figcaption></figure>`:""}</div>`;
+    }).join("")}
+    ${t.dica?`<div class="call tip"><b>Dica</b>${t.dica}</div>`:""}
+    ${t.aviso?`<div class="call warn"><b>Atenção</b>${t.aviso}</div>`:""}
+    <p style="margin-top:28px"><a class="chip on" href="#/">Voltar ao menu</a></p>`;
+  window.scrollTo(0,0);
+}
+function render(){
+  const q=norm($("[data-search]").value);
+  const vis=OFICIO_DATA.filter(t=>{
+    const okT=tema==="todos"||t.tema===tema;
+    const okQ=!q||norm(t.titulo+" "+t.resumo+" "+t.passos.join(" ")).includes(q);
+    return okT&&okQ;
+  });
+  $("[data-count]").textContent=vis.length+" tutoriais";
+  $("#lista").innerHTML=vis.map((t,i)=>`
+    <a class="card" href="#/t/${t.id}">
+      <div class="top">
+        <span class="num">${String(OFICIO_DATA.indexOf(t)+1).padStart(2,"0")}</span>
+        <span class="pill ${pill[t.tema]}">${temaLabel[t.tema]}</span>
+      </div>
+      <h3>${t.titulo}</h3>
+      <p>${t.resumo}</p>
+      <div class="foot">${t.minutos} min · ${t.passos.length} passos ${(FIGS[t.id]||[]).length?" · com foto":""}</div>
+    </a>`).join("");
+  $("[data-empty]").style.display=vis.length?"none":"block";
+}
+$("[data-search]").addEventListener("input",render);
+document.querySelectorAll("[data-filter]").forEach(btn=>{
+  btn.addEventListener("click",()=>{
+    tema=btn.dataset.filter;
+    document.querySelectorAll("[data-filter]").forEach(b=>b.classList.toggle("on",b===btn));
+    render();
+  });
+});
+window.addEventListener("hashchange",route);
+route();
+
+</script>
 </body>
 </html>
