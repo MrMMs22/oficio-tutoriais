@@ -1,11 +1,11 @@
 # Ofício
 
-O site bonito **não é esta página do GitHub**. Aqui você vê código.
+90 tutoriais de casa, quintal e cabo.
 
-## No celular
-Baixe o arquivo `Oficio.html` e abra no Chrome.
+Site em um arquivo: abra `index.html` no Chrome.
 
-## GitHub Pages
-No Chrome (não no app): https://github.com/MrMMs22/oficio-tutoriais/settings/pages
-Source: Deploy from a branch → main / root
+Repo: https://github.com/MrMMs22/oficio-tutoriais
+
+Para virar URL pública: Settings → Pages (no **navegador**, não no app) → Deploy from a branch → `main` / root.
+
 Depois: https://mrmms22.github.io/oficio-tutoriais/
