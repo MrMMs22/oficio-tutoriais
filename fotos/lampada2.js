@@ -1,0 +1,1 @@
+window.OFICIO_FOTOS=window.OFICIO_FOTOS||{};OFICIO_FOTOS['lampada2.jpg']='data:image/jpeg;base64,ok';
