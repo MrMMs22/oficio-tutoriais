@@ -1,0 +1,5 @@
+# ads.txt do Ofício — preencha quando a conta do AdSense for aprovada:
+# google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+# Atenção: o Google lê o ads.txt na raiz do domínio. Em mrmms22.github.io/oficio-tutoriais
+# ele precisa ficar em https://mrmms22.github.io/ads.txt (repositório MrMMs22.github.io)
+# ou na raiz de um domínio próprio.

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+<defs><radialGradient id="g1" cx="85%" cy="0%" r="60%"><stop offset="0" stop-color="#d8ff3c" stop-opacity=".22"/><stop offset="1" stop-color="#d8ff3c" stop-opacity="0"/></radialGradient>
+<radialGradient id="g2" cx="0%" cy="30%" r="50%"><stop offset="0" stop-color="#ff6a3d" stop-opacity=".18"/><stop offset="1" stop-color="#ff6a3d" stop-opacity="0"/></radialGradient></defs>
+<rect width="1200" height="630" fill="#0b0c0a"/><rect width="1200" height="630" fill="url(#g1)"/><rect width="1200" height="630" fill="url(#g2)"/>
+<rect x="80" y="80" width="84" height="84" rx="24" fill="#d8ff3c"/><text x="122" y="136" text-anchor="middle" font-family="Outfit,Arial,sans-serif" font-weight="800" font-size="38" fill="#111">Of</text>
+<text x="190" y="118" font-family="Outfit,Arial,sans-serif" font-weight="700" font-size="34" fill="#f4f1ea">Ofício</text>
+<text x="190" y="152" font-family="Outfit,Arial,sans-serif" font-size="20" letter-spacing="4" fill="#a29d90">CASA · QUINTAL · CABO</text>
+<text x="80" y="350" font-family="Instrument Serif,Georgia,serif" font-size="120" fill="#f4f1ea" letter-spacing="-4">Noventa ofícios.</text>
+<text x="80" y="470" font-family="Instrument Serif,Georgia,serif" font-style="italic" font-size="120" fill="#d8ff3c" letter-spacing="-4">Sem enrolação.</text>
+<text x="80" y="550" font-family="Outfit,Arial,sans-serif" font-size="28" fill="#a29d90">90 tutoriais práticos de casa, jardim e eletrônicos — grátis</text>
+</svg>

@@ -1,0 +1,3587 @@
+[
+ {
+  "id": "gpx-whatsapp-garmin",
+  "tema": "eletronicos",
+  "titulo": "Passar um GPX do WhatsApp para o Garmin",
+  "resumo": "Baixar o track no Zap, achar a pasta Private e mover para Garmin/GPX com cabo OTG.",
+  "minutos": 10,
+  "material": [
+   "Celular Android",
+   "GPS Garmin",
+   "Cabo de dados",
+   "Adaptador OTG",
+   "App Files"
+  ],
+  "passos": [
+   "Toque no arquivo .gpx no WhatsApp e espere o download.",
+   "Abra o Files e entre em Armazenamento interno.",
+   "Siga Android > media > com.whatsapp > WhatsApp > Media > WhatsApp Documents > Private.",
+   "Segure o .gpx > três pontinhos > Mover para.",
+   "Ligue o Garmin, conecte o OTG e escolha o dispositivo GARMIN.",
+   "Entre em Garmin > GPX e toque em Mover para aqui.",
+   "Ejete o cabo e abra a trilha no GPS."
+  ],
+  "dica": "Use cabo que passa dados, não só energia.",
+  "aviso": "Não deixe o arquivo na raiz do Garmin.",
+  "imagens": [
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/1.webp",
+    "alt": "Ilustração do passo 1: Toque no arquivo .gpx no WhatsApp e espere o download"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/2.webp",
+    "alt": "Ilustração do passo 2: Abra o Files e entre em Armazenamento interno"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/3.webp",
+    "alt": "Ilustração do passo 3: Siga Android > media > com.whatsapp > WhatsApp > Media > WhatsApp Documents > Private"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/4.webp",
+    "alt": "Ilustração do passo 4: Segure o .gpx > três pontinhos > Mover para"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/5.webp",
+    "alt": "Ilustração do passo 5: Ligue o Garmin, conecte o OTG e escolha o dispositivo GARMIN"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/6.webp",
+    "alt": "Ilustração do passo 6: Entre em Garmin > GPX e toque em Mover para aqui"
+   },
+   {
+    "arquivo": "img/gpx-whatsapp-garmin/7.webp",
+    "alt": "Ilustração do passo 7: Ejete o cabo e abra a trilha no GPS"
+   }
+  ]
+ },
+ {
+  "id": "limpar-privada",
+  "tema": "casa",
+  "titulo": "Como limpar a privada",
+  "resumo": "Desinfetar o vaso sem respingar e sem misturar produtos perigosos.",
+  "minutos": 15,
+  "material": [
+   "Luvas",
+   "Escova sanitária",
+   "Desinfetante sanitário (um produto só, sem misturar)",
+   "Papel toalha"
+  ],
+  "passos": [
+   "Coloque luvas.",
+   "Aplique o desinfetante sob a borda e deixe 5 a 10 minutos.",
+   "Escove o interior, inclusive atrás do sifão.",
+   "Dê descarga.",
+   "Passe pano no assento, tampa e base por fora.",
+   "Lave as mãos."
+  ],
+  "dica": "Vinagre + bicarbonato ajudam no cheiro.",
+  "aviso": "Nunca misture água sanitária com amoníaco ou vinagre em espaço fechado.",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-privada/1.webp",
+    "alt": "Ilustração do passo 1: Coloque luvas"
+   },
+   {
+    "arquivo": "img/limpar-privada/2.webp",
+    "alt": "Ilustração do passo 2: Aplique o desinfetante sob a borda e deixe 5 a 10 minutos"
+   },
+   {
+    "arquivo": "img/limpar-privada/3.webp",
+    "alt": "Ilustração do passo 3: Escove o interior, inclusive atrás do sifão"
+   },
+   {
+    "arquivo": "img/limpar-privada/4.webp",
+    "alt": "Ilustração do passo 4: Dê descarga"
+   },
+   {
+    "arquivo": "img/limpar-privada/5.webp",
+    "alt": "Ilustração do passo 5: Passe pano no assento, tampa e base por fora"
+   },
+   {
+    "arquivo": "img/limpar-privada/6.webp",
+    "alt": "Ilustração do passo 6: Lave as mãos"
+   }
+  ]
+ },
+ {
+  "id": "trocar-lampada",
+  "tema": "casa",
+  "titulo": "Como trocar uma lâmpada",
+  "resumo": "Trocar lâmpada queimada sem levar choque e sem quebrar o soquete.",
+  "minutos": 8,
+  "material": [
+   "Lâmpada nova do mesmo soquete (E27, E14, GU10…)",
+   "Escada firme se for alta"
+  ],
+  "passos": [
+   "Apague o interruptor.",
+   "Se possível, desligue o disjuntor do cômodo.",
+   "Espere a lâmpada velha esfriar.",
+   "Gire no sentido anti-horário até soltar.",
+   "Encaixe a nova sem forçar.",
+   "Ligue e teste."
+  ],
+  "dica": "Anote a potência e o tipo antes de comprar.",
+  "aviso": "Lâmpada de teto quente queima a mão — espere.",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-lampada/1.webp",
+    "alt": "Ilustração do passo 1: Apague o interruptor"
+   },
+   {
+    "arquivo": "img/trocar-lampada/2.webp",
+    "alt": "Ilustração do passo 2: Se possível, desligue o disjuntor do cômodo"
+   },
+   {
+    "arquivo": "img/trocar-lampada/3.webp",
+    "alt": "Ilustração do passo 3: Espere a lâmpada velha esfriar"
+   },
+   {
+    "arquivo": "img/trocar-lampada/4.webp",
+    "alt": "Ilustração do passo 4: Gire no sentido anti-horário até soltar"
+   },
+   {
+    "arquivo": "img/trocar-lampada/5.webp",
+    "alt": "Ilustração do passo 5: Encaixe a nova sem forçar"
+   },
+   {
+    "arquivo": "img/trocar-lampada/6.webp",
+    "alt": "Ilustração do passo 6: Ligue e teste"
+   }
+  ]
+ },
+ {
+  "id": "desentupir-pia",
+  "tema": "casa",
+  "titulo": "Desentupir a pia da cozinha",
+  "resumo": "Tirar gordura e resto de comida do sifão sem quebrar o cano.",
+  "minutos": 20,
+  "material": [
+   "Balde",
+   "Chave inglesa",
+   "Desentupidor",
+   "Luvas"
+  ],
+  "passos": [
+   "Coloque o balde sob o sifão.",
+   "Desrosqueie o sifão com a mão ou a chave.",
+   "Esvazie o lixo do copo do sifão.",
+   "Enxágue o cano.",
+   "Remonte apertando só o suficiente para não vazar.",
+   "Abra a torneira e confira."
+  ],
+  "dica": "Água quente com detergente dissolve gordura leve.",
+  "aviso": "Evite soda cáustica em sifão de plástico fino.",
+  "imagens": [
+   {
+    "arquivo": "img/desentupir-pia/1.webp",
+    "alt": "Ilustração do passo 1: Coloque o balde sob o sifão"
+   },
+   {
+    "arquivo": "img/desentupir-pia/2.webp",
+    "alt": "Ilustração do passo 2: Desrosqueie o sifão com a mão ou a chave"
+   },
+   {
+    "arquivo": "img/desentupir-pia/3.webp",
+    "alt": "Ilustração do passo 3: Esvazie o lixo do copo do sifão"
+   },
+   {
+    "arquivo": "img/desentupir-pia/4.webp",
+    "alt": "Ilustração do passo 4: Enxágue o cano"
+   },
+   {
+    "arquivo": "img/desentupir-pia/5.webp",
+    "alt": "Ilustração do passo 5: Remonte apertando só o suficiente para não vazar"
+   },
+   {
+    "arquivo": "img/desentupir-pia/6.webp",
+    "alt": "Ilustração do passo 6: Abra a torneira e confira"
+   }
+  ]
+ },
+ {
+  "id": "torneira-pingando",
+  "tema": "casa",
+  "titulo": "Trocar a vedação da torneira que pinga",
+  "resumo": "Fechar o registro, trocar o couro ou o cartucho e parar o gotejamento.",
+  "minutos": 25,
+  "material": [
+   "Registro fechado",
+   "Chave de grifo",
+   "Vedação ou cartucho novo"
+  ],
+  "passos": [
+   "Feche o registro do cômodo.",
+   "Abra a torneira para aliviar pressão.",
+   "Solte o volante e o cano.",
+   "Troque a borracha ou o cartucho.",
+   "Remonte e abra o registro devagar.",
+   "Confira se parou de pingar."
+  ],
+  "dica": "Leve a peça velha na loja para achar o tamanho.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/torneira-pingando/1.webp",
+    "alt": "Ilustração do passo 1: Feche o registro do cômodo"
+   },
+   {
+    "arquivo": "img/torneira-pingando/2.webp",
+    "alt": "Ilustração do passo 2: Abra a torneira para aliviar pressão"
+   },
+   {
+    "arquivo": "img/torneira-pingando/3.webp",
+    "alt": "Ilustração do passo 3: Solte o volante e o cano"
+   },
+   {
+    "arquivo": "img/torneira-pingando/4.webp",
+    "alt": "Ilustração do passo 4: Troque a borracha ou o cartucho"
+   },
+   {
+    "arquivo": "img/torneira-pingando/5.webp",
+    "alt": "Ilustração do passo 5: Remonte e abra o registro devagar"
+   },
+   {
+    "arquivo": "img/torneira-pingando/6.webp",
+    "alt": "Ilustração do passo 6: Confira se parou de pingar"
+   }
+  ]
+ },
+ {
+  "id": "filtro-maquina-lavar",
+  "tema": "casa",
+  "titulo": "Limpar o filtro da máquina de lavar",
+  "resumo": "Tirar fiapo, moeda e água suja do filtro da frente.",
+  "minutos": 15,
+  "material": [
+   "Pano",
+   "Bacia rasa",
+   "Luvas"
+  ],
+  "passos": [
+   "Desligue a máquina da tomada.",
+   "Abra a portinhola inferior.",
+   "Puxe a mangueirinha de drenagem para um copo.",
+   "Desrosqueie o filtro no sentido anti-horário.",
+   "Tire cabelo, moeda e fiapo.",
+   "Encaixe de novo até ficar firme."
+  ],
+  "dica": "Faça isso uma vez por mês.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/filtro-maquina-lavar/1.webp",
+    "alt": "Ilustração do passo 1: Desligue a máquina da tomada"
+   },
+   {
+    "arquivo": "img/filtro-maquina-lavar/2.webp",
+    "alt": "Ilustração do passo 2: Abra a portinhola inferior"
+   },
+   {
+    "arquivo": "img/filtro-maquina-lavar/3.webp",
+    "alt": "Ilustração do passo 3: Puxe a mangueirinha de drenagem para um copo"
+   },
+   {
+    "arquivo": "img/filtro-maquina-lavar/4.webp",
+    "alt": "Ilustração do passo 4: Desrosqueie o filtro no sentido anti-horário"
+   },
+   {
+    "arquivo": "img/filtro-maquina-lavar/5.webp",
+    "alt": "Ilustração do passo 5: Tire cabelo, moeda e fiapo"
+   },
+   {
+    "arquivo": "img/filtro-maquina-lavar/6.webp",
+    "alt": "Ilustração do passo 6: Encaixe de novo até ficar firme"
+   }
+  ]
+ },
+ {
+  "id": "limpar-box",
+  "tema": "casa",
+  "titulo": "Limpar o box do banheiro",
+  "resumo": "Tirar sabão e mofo do vidro e do perfil de alumínio.",
+  "minutos": 20,
+  "material": [
+   "Vinagre branco",
+   "Bicarbonato",
+   "Pano microfibra",
+   "Rodo"
+  ],
+  "passos": [
+   "Misture vinagre e água 1:1 num borrifador.",
+   "Borrife o vidro e deixe 5 minutos.",
+   "Esfregue com o lado macio da esponja.",
+   "Passe bicarbonato na borracha mofada.",
+   "Enxágue e seque com o rodo."
+  ],
+  "dica": "Secar depois do banho evita o filme branco.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-box/1.webp",
+    "alt": "Ilustração do passo 1: Misture vinagre e água 1:1 num borrifador"
+   },
+   {
+    "arquivo": "img/limpar-box/2.webp",
+    "alt": "Ilustração do passo 2: Borrife o vidro e deixe 5 minutos"
+   },
+   {
+    "arquivo": "img/limpar-box/3.webp",
+    "alt": "Ilustração do passo 3: Esfregue com o lado macio da esponja"
+   },
+   {
+    "arquivo": "img/limpar-box/4.webp",
+    "alt": "Ilustração do passo 4: Passe bicarbonato na borracha mofada"
+   },
+   {
+    "arquivo": "img/limpar-box/5.webp",
+    "alt": "Ilustração do passo 5: Enxágue e seque com o rodo"
+   }
+  ]
+ },
+ {
+  "id": "mofo-parede",
+  "tema": "casa",
+  "titulo": "Tirar mofo da parede",
+  "resumo": "Limpar mancha preta em parede de banheiro ou quarto úmido.",
+  "minutos": 30,
+  "material": [
+   "Luvas",
+   "Máscara",
+   "Água sanitária diluída ou vinagre",
+   "Escova macia"
+  ],
+  "passos": [
+   "Abra a janela.",
+   "Dilua 1 parte de sanitária em 4 de água.",
+   "Passe na mancha e espere 10 minutos.",
+   "Esfregue de leve.",
+   "Enxágue com pano úmido.",
+   "Deixe secar e, se voltar, ache o vazamento."
+  ],
+  "dica": "Mofo que volta é umidade — só limpar não resolve.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/mofo-parede/1.webp",
+    "alt": "Ilustração do passo 1: Abra a janela"
+   },
+   {
+    "arquivo": "img/mofo-parede/2.webp",
+    "alt": "Ilustração do passo 2: Dilua 1 parte de sanitária em 4 de água"
+   },
+   {
+    "arquivo": "img/mofo-parede/3.webp",
+    "alt": "Ilustração do passo 3: Passe na mancha e espere 10 minutos"
+   },
+   {
+    "arquivo": "img/mofo-parede/4.webp",
+    "alt": "Ilustração do passo 4: Esfregue de leve"
+   },
+   {
+    "arquivo": "img/mofo-parede/5.webp",
+    "alt": "Ilustração do passo 5: Enxágue com pano úmido"
+   },
+   {
+    "arquivo": "img/mofo-parede/6.webp",
+    "alt": "Ilustração do passo 6: Deixe secar e, se voltar, ache o vazamento"
+   }
+  ]
+ },
+ {
+  "id": "trocar-chuveiro",
+  "tema": "casa",
+  "titulo": "Trocar o chuveiro elétrico",
+  "resumo": "Trocar o aparelho queimado com o disjuntor desligado.",
+  "minutos": 40,
+  "material": [
+   "Chuveiro novo da mesma voltagem",
+   "Chave de fenda",
+   "Fita isolante",
+   "Escada"
+  ],
+  "passos": [
+   "Desligue o disjuntor do chuveiro.",
+   "Confirme com a lâmpada de teste ou multímetro que não há energia.",
+   "Solte os fios e anote fase e neutro.",
+   "Desrosqueie a peça velha.",
+   "Fixe a nova e reconecte os fios.",
+   "Abra a água antes de religar o disjuntor e teste primeiro na posição fria."
+  ],
+  "dica": "Voltagem 127 ou 220 tem que ser a mesma da casa.",
+  "aviso": "Se não tiver certeza da fiação, chame eletricista.",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-chuveiro/1.webp",
+    "alt": "Ilustração do passo 1: Desligue o disjuntor do chuveiro"
+   },
+   {
+    "arquivo": "img/trocar-chuveiro/2.webp",
+    "alt": "Ilustração do passo 2: Confirme com a lâmpada de teste ou multímetro que não há energia"
+   },
+   {
+    "arquivo": "img/trocar-chuveiro/3.webp",
+    "alt": "Ilustração do passo 3: Solte os fios e anote fase e neutro"
+   },
+   {
+    "arquivo": "img/trocar-chuveiro/4.webp",
+    "alt": "Ilustração do passo 4: Desrosqueie a peça velha"
+   },
+   {
+    "arquivo": "img/trocar-chuveiro/5.webp",
+    "alt": "Ilustração do passo 5: Fixe a nova e reconecte os fios"
+   },
+   {
+    "arquivo": "img/trocar-chuveiro/6.webp",
+    "alt": "Ilustração do passo 6: Abra a água antes de religar o disjuntor e teste primeiro na posição fria"
+   }
+  ]
+ },
+ {
+  "id": "fumaca-detector",
+  "tema": "casa",
+  "titulo": "Testar o detector de fumaça",
+  "resumo": "Saber se o alarme ainda funciona e quando trocar a pilha.",
+  "minutos": 5,
+  "material": [
+   "Pilha 9V se for o modelo antigo"
+  ],
+  "passos": [
+   "Aperte o botão de teste até o bipe.",
+   "Se não bipar, troque a pilha.",
+   "Aspire a poeira da grade.",
+   "Anote a data no fundo do aparelho."
+  ],
+  "dica": "Aparelho com mais de 10 anos deve ser trocado.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/fumaca-detector/1.webp",
+    "alt": "Ilustração do passo 1: Aperte o botão de teste até o bipe"
+   },
+   {
+    "arquivo": "img/fumaca-detector/2.webp",
+    "alt": "Ilustração do passo 2: Se não bipar, troque a pilha"
+   },
+   {
+    "arquivo": "img/fumaca-detector/3.webp",
+    "alt": "Ilustração do passo 3: Aspire a poeira da grade"
+   },
+   {
+    "arquivo": "img/fumaca-detector/4.webp",
+    "alt": "Ilustração do passo 4: Anote a data no fundo do aparelho"
+   }
+  ]
+ },
+ {
+  "id": "organizar-caixa-luz",
+  "tema": "casa",
+  "titulo": "Identificar os disjuntores da caixa",
+  "resumo": "Descobrir qual disjuntor apaga cada cômodo e etiquetar.",
+  "minutos": 20,
+  "material": [
+   "Fita crepe",
+   "Caneta",
+   "Outra pessoa para ajudar"
+  ],
+  "passos": [
+   "Abra a caixa com o quadro visível.",
+   "Peça para alguém ficar no cômodo.",
+   "Desligue um disjuntor por vez.",
+   "Anote 'cozinha', 'chuveiro', 'tomadas quarto'.",
+   "Cole as etiquetas."
+  ],
+  "dica": "",
+  "aviso": "Nunca mexa nos parafusos da barra energizada.",
+  "imagens": [
+   {
+    "arquivo": "img/organizar-caixa-luz/1.webp",
+    "alt": "Ilustração do passo 1: Abra a caixa com o quadro visível"
+   },
+   {
+    "arquivo": "img/organizar-caixa-luz/2.webp",
+    "alt": "Ilustração do passo 2: Peça para alguém ficar no cômodo"
+   },
+   {
+    "arquivo": "img/organizar-caixa-luz/3.webp",
+    "alt": "Ilustração do passo 3: Desligue um disjuntor por vez"
+   },
+   {
+    "arquivo": "img/organizar-caixa-luz/4.webp",
+    "alt": "Ilustração do passo 4: Anote 'cozinha', 'chuveiro', 'tomadas quarto'"
+   },
+   {
+    "arquivo": "img/organizar-caixa-luz/5.webp",
+    "alt": "Ilustração do passo 5: Cole as etiquetas"
+   }
+  ]
+ },
+ {
+  "id": "limpar-geladeira",
+  "tema": "casa",
+  "titulo": "Limpar a geladeira por dentro",
+  "resumo": "Esvaziar, lavar prateleiras e evitar cheiro.",
+  "minutos": 40,
+  "material": [
+   "Bicarbonato",
+   "Pano",
+   "Tigela"
+  ],
+  "passos": [
+   "Esvazie os alimentos perecíveis para uma caixa térmica.",
+   "Tire prateleiras e gavetas.",
+   "Lave com água morna e bicarbonato.",
+   "Seque bem antes de recolocar.",
+   "Jogue o que venceu."
+  ],
+  "dica": "Um pote aberto de bicarbonato absorve cheiro.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-geladeira/1.webp",
+    "alt": "Ilustração do passo 1: Esvazie os alimentos perecíveis para uma caixa térmica"
+   },
+   {
+    "arquivo": "img/limpar-geladeira/2.webp",
+    "alt": "Ilustração do passo 2: Tire prateleiras e gavetas"
+   },
+   {
+    "arquivo": "img/limpar-geladeira/3.webp",
+    "alt": "Ilustração do passo 3: Lave com água morna e bicarbonato"
+   },
+   {
+    "arquivo": "img/limpar-geladeira/4.webp",
+    "alt": "Ilustração do passo 4: Seque bem antes de recolocar"
+   },
+   {
+    "arquivo": "img/limpar-geladeira/5.webp",
+    "alt": "Ilustração do passo 5: Jogue o que venceu"
+   }
+  ]
+ },
+ {
+  "id": "descongelar-freezer",
+  "tema": "casa",
+  "titulo": "Descongelar o freezer",
+  "resumo": "Tirar o bloco de gelo sem furar a parede do aparelho.",
+  "minutos": 90,
+  "material": [
+   "Toalhas",
+   "Espanador de plástico",
+   "Bacia"
+  ],
+  "passos": [
+   "Esvazie o freezer.",
+   "Desligue ou coloque em degelo.",
+   "Forre o chão com toalhas.",
+   "Deixe o gelo soltar sozinho.",
+   "Não use faca no fundo.",
+   "Ligue de novo quando estiver seco."
+  ],
+  "dica": "Uma camada fina de gelo já aumenta o gasto de energia.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/descongelar-freezer/1.webp",
+    "alt": "Ilustração do passo 1: Esvazie o freezer"
+   },
+   {
+    "arquivo": "img/descongelar-freezer/2.webp",
+    "alt": "Ilustração do passo 2: Desligue ou coloque em degelo"
+   },
+   {
+    "arquivo": "img/descongelar-freezer/3.webp",
+    "alt": "Ilustração do passo 3: Forre o chão com toalhas"
+   },
+   {
+    "arquivo": "img/descongelar-freezer/4.webp",
+    "alt": "Ilustração do passo 4: Deixe o gelo soltar sozinho"
+   },
+   {
+    "arquivo": "img/descongelar-freezer/5.webp",
+    "alt": "Ilustração do passo 5: Não use faca no fundo"
+   },
+   {
+    "arquivo": "img/descongelar-freezer/6.webp",
+    "alt": "Ilustração do passo 6: Ligue de novo quando estiver seco"
+   }
+  ]
+ },
+ {
+  "id": "limpar-forno",
+  "tema": "casa",
+  "titulo": "Limpar o forno engordurado",
+  "resumo": "Amolecer gordura queimada sem arranhar o esmalte.",
+  "minutos": 45,
+  "material": [
+   "Bicarbonato",
+   "Vinagre",
+   "Luva",
+   "Espátula de plástico"
+  ],
+  "passos": [
+   "Espere o forno esfriar.",
+   "Faça pasta de bicarbonato com água.",
+   "Passe nas paredes e deixe 30 minutos.",
+   "Solte a crosta com a espátula.",
+   "Borrife vinagre e limpe.",
+   "Aqueça 10 minutos vazio para secar."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-forno/1.webp",
+    "alt": "Ilustração do passo 1: Espere o forno esfriar"
+   },
+   {
+    "arquivo": "img/limpar-forno/2.webp",
+    "alt": "Ilustração do passo 2: Faça pasta de bicarbonato com água"
+   },
+   {
+    "arquivo": "img/limpar-forno/3.webp",
+    "alt": "Ilustração do passo 3: Passe nas paredes e deixe 30 minutos"
+   },
+   {
+    "arquivo": "img/limpar-forno/4.webp",
+    "alt": "Ilustração do passo 4: Solte a crosta com a espátula"
+   },
+   {
+    "arquivo": "img/limpar-forno/5.webp",
+    "alt": "Ilustração do passo 5: Borrife vinagre e limpe"
+   },
+   {
+    "arquivo": "img/limpar-forno/6.webp",
+    "alt": "Ilustração do passo 6: Aqueça 10 minutos vazio para secar"
+   }
+  ]
+ },
+ {
+  "id": "coifa-filtro",
+  "tema": "casa",
+  "titulo": "Limpar o filtro da coifa",
+  "resumo": "Desengordurar o filtro de alumínio da exaustão.",
+  "minutos": 25,
+  "material": [
+   "Água quente",
+   "Detergente",
+   "Bicarbonato"
+  ],
+  "passos": [
+   "Solte o filtro da coifa.",
+   "Deixe de molho 15 minutos em água quente com detergente.",
+   "Esfregue na direção das aletas.",
+   "Enxágue e deixe secar de pé.",
+   "Encaixe de volta."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/coifa-filtro/1.webp",
+    "alt": "Ilustração do passo 1: Solte o filtro da coifa"
+   },
+   {
+    "arquivo": "img/coifa-filtro/2.webp",
+    "alt": "Ilustração do passo 2: Deixe de molho 15 minutos em água quente com detergente"
+   },
+   {
+    "arquivo": "img/coifa-filtro/3.webp",
+    "alt": "Ilustração do passo 3: Esfregue na direção das aletas"
+   },
+   {
+    "arquivo": "img/coifa-filtro/4.webp",
+    "alt": "Ilustração do passo 4: Enxágue e deixe secar de pé"
+   },
+   {
+    "arquivo": "img/coifa-filtro/5.webp",
+    "alt": "Ilustração do passo 5: Encaixe de volta"
+   }
+  ]
+ },
+ {
+  "id": "trocar-sifao",
+  "tema": "casa",
+  "titulo": "Trocar o sifão da pia",
+  "resumo": "Substituir o sifão rachado que pinga no armário.",
+  "minutos": 25,
+  "material": [
+   "Sifão novo do mesmo diâmetro",
+   "Balde",
+   "Fita veda rosca"
+  ],
+  "passos": [
+   "Balde embaixo.",
+   "Desrosqueie o antigo.",
+   "Limpe a rosca da pia.",
+   "Encaixe o novo com as gaxetas na ordem certa.",
+   "Aperte com a mão.",
+   "Teste com água."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-sifao/1.webp",
+    "alt": "Ilustração do passo 1: Balde embaixo"
+   },
+   {
+    "arquivo": "img/trocar-sifao/2.webp",
+    "alt": "Ilustração do passo 2: Desrosqueie o antigo"
+   },
+   {
+    "arquivo": "img/trocar-sifao/3.webp",
+    "alt": "Ilustração do passo 3: Limpe a rosca da pia"
+   },
+   {
+    "arquivo": "img/trocar-sifao/4.webp",
+    "alt": "Ilustração do passo 4: Encaixe o novo com as gaxetas na ordem certa"
+   },
+   {
+    "arquivo": "img/trocar-sifao/5.webp",
+    "alt": "Ilustração do passo 5: Aperte com a mão"
+   },
+   {
+    "arquivo": "img/trocar-sifao/6.webp",
+    "alt": "Ilustração do passo 6: Teste com água"
+   }
+  ]
+ },
+ {
+  "id": "vedar-janela",
+  "tema": "casa",
+  "titulo": "Vedar janela que sopra vento",
+  "resumo": "Colocar burlete na fresta da janela de alumínio ou madeira.",
+  "minutos": 20,
+  "material": [
+   "Fita de vedação (burlete)",
+   "Álcool",
+   "Tesoura"
+  ],
+  "passos": [
+   "Limpe o perfil com álcool.",
+   "Meça a fresta.",
+   "Corte a fita.",
+   "Cole na parte fixa, não na folha que anda.",
+   "Feche e veja se ainda tranca."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/vedar-janela/1.webp",
+    "alt": "Ilustração do passo 1: Limpe o perfil com álcool"
+   },
+   {
+    "arquivo": "img/vedar-janela/2.webp",
+    "alt": "Ilustração do passo 2: Meça a fresta"
+   },
+   {
+    "arquivo": "img/vedar-janela/3.webp",
+    "alt": "Ilustração do passo 3: Corte a fita"
+   },
+   {
+    "arquivo": "img/vedar-janela/4.webp",
+    "alt": "Ilustração do passo 4: Cole na parte fixa, não na folha que anda"
+   },
+   {
+    "arquivo": "img/vedar-janela/5.webp",
+    "alt": "Ilustração do passo 5: Feche e veja se ainda tranca"
+   }
+  ]
+ },
+ {
+  "id": "pintar-parede-quarto",
+  "tema": "casa",
+  "titulo": "Pintar uma parede de quarto",
+  "resumo": "Preparar, proteger o rodapé e pintar sem marca de rolo.",
+  "minutos": 180,
+  "material": [
+   "Tinta látex",
+   "Rolo",
+   "Fita crepe",
+   "Lona",
+   "Bandeja"
+  ],
+  "passos": [
+   "Tire os móveis ou cubra.",
+   "Corrija buracos com massa.",
+   "Passe fita no rodapé e no teto.",
+   "Corte os cantos com pincel.",
+   "Role em W sem parar no meio.",
+   "Segunda demão depois de seco."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/pintar-parede-quarto/1.webp",
+    "alt": "Ilustração do passo 1: Tire os móveis ou cubra"
+   },
+   {
+    "arquivo": "img/pintar-parede-quarto/2.webp",
+    "alt": "Ilustração do passo 2: Corrija buracos com massa"
+   },
+   {
+    "arquivo": "img/pintar-parede-quarto/3.webp",
+    "alt": "Ilustração do passo 3: Passe fita no rodapé e no teto"
+   },
+   {
+    "arquivo": "img/pintar-parede-quarto/4.webp",
+    "alt": "Ilustração do passo 4: Corte os cantos com pincel"
+   },
+   {
+    "arquivo": "img/pintar-parede-quarto/5.webp",
+    "alt": "Ilustração do passo 5: Role em W sem parar no meio"
+   },
+   {
+    "arquivo": "img/pintar-parede-quarto/6.webp",
+    "alt": "Ilustração do passo 6: Segunda demão depois de seco"
+   }
+  ]
+ },
+ {
+  "id": "furar-parede-quadro",
+  "tema": "casa",
+  "titulo": "Pendurar um quadro na parede",
+  "resumo": "Achar o ponto, furar e usar bucha do tamanho certo.",
+  "minutos": 15,
+  "material": [
+   "Furadeira",
+   "Bucha e parafuso",
+   "Nível",
+   "Fita"
+  ],
+  "passos": [
+   "Marque a altura com o nível.",
+   "Se for drywall, use bucha específica.",
+   "Fure no diâmetro da bucha.",
+   "Encaixe a bucha.",
+   "Parafuse o gancho.",
+   "Pendure e afine o nível."
+  ],
+  "dica": "Evite furar na linha de canos e fios — em geral eles correm na vertical e na horizontal a partir de tomadas, interruptores e torneiras.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/furar-parede-quadro/1.webp",
+    "alt": "Ilustração do passo 1: Marque a altura com o nível"
+   },
+   {
+    "arquivo": "img/furar-parede-quadro/2.webp",
+    "alt": "Ilustração do passo 2: Se for drywall, use bucha específica"
+   },
+   {
+    "arquivo": "img/furar-parede-quadro/3.webp",
+    "alt": "Ilustração do passo 3: Fure no diâmetro da bucha"
+   },
+   {
+    "arquivo": "img/furar-parede-quadro/4.webp",
+    "alt": "Ilustração do passo 4: Encaixe a bucha"
+   },
+   {
+    "arquivo": "img/furar-parede-quadro/5.webp",
+    "alt": "Ilustração do passo 5: Parafuse o gancho"
+   },
+   {
+    "arquivo": "img/furar-parede-quadro/6.webp",
+    "alt": "Ilustração do passo 6: Pendure e afine o nível"
+   }
+  ]
+ },
+ {
+  "id": "trocar-fechadura",
+  "tema": "casa",
+  "titulo": "Trocar a fechadura da porta",
+  "resumo": "Tirar a fechadura velha e encaixar uma nova do mesmo furo.",
+  "minutos": 30,
+  "material": [
+   "Fechadura nova",
+   "Chave de fenda"
+  ],
+  "passos": [
+   "Tire os parafusos da maçaneta.",
+   "Solte a frente da fechadura.",
+   "Retire o miolo.",
+   "Encaixe o novo alinhado com a lingueta.",
+   "Teste a chave antes de fechar a porta."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-fechadura/1.webp",
+    "alt": "Ilustração do passo 1: Tire os parafusos da maçaneta"
+   },
+   {
+    "arquivo": "img/trocar-fechadura/2.webp",
+    "alt": "Ilustração do passo 2: Solte a frente da fechadura"
+   },
+   {
+    "arquivo": "img/trocar-fechadura/3.webp",
+    "alt": "Ilustração do passo 3: Retire o miolo"
+   },
+   {
+    "arquivo": "img/trocar-fechadura/4.webp",
+    "alt": "Ilustração do passo 4: Encaixe o novo alinhado com a lingueta"
+   },
+   {
+    "arquivo": "img/trocar-fechadura/5.webp",
+    "alt": "Ilustração do passo 5: Teste a chave antes de fechar a porta"
+   }
+  ]
+ },
+ {
+  "id": "lubrificar-dobradica",
+  "tema": "casa",
+  "titulo": "Calar porta que range",
+  "resumo": "Lubrificar dobradiça sem manchar o piso.",
+  "minutos": 8,
+  "material": [
+   "WD-40 ou óleo fino",
+   "Pano"
+  ],
+  "passos": [
+   "Abra a porta.",
+   "Passe uma gota no pino da dobradiça.",
+   "Abra e feche 10 vezes.",
+   "Limpe o excesso."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/lubrificar-dobradica/1.webp",
+    "alt": "Ilustração do passo 1: Abra a porta"
+   },
+   {
+    "arquivo": "img/lubrificar-dobradica/2.webp",
+    "alt": "Ilustração do passo 2: Passe uma gota no pino da dobradiça"
+   },
+   {
+    "arquivo": "img/lubrificar-dobradica/3.webp",
+    "alt": "Ilustração do passo 3: Abra e feche 10 vezes"
+   },
+   {
+    "arquivo": "img/lubrificar-dobradica/4.webp",
+    "alt": "Ilustração do passo 4: Limpe o excesso"
+   }
+  ]
+ },
+ {
+  "id": "trocar-resistencia-chuveiro",
+  "tema": "casa",
+  "titulo": "Trocar a resistência do chuveiro",
+  "resumo": "Só a resistência, sem trocar o aparelho inteiro.",
+  "minutos": 25,
+  "material": [
+   "Resistência do mesmo modelo",
+   "Chave"
+  ],
+  "passos": [
+   "Disjuntor off.",
+   "Solte a cúpula.",
+   "Tire a resistência queimada.",
+   "Encaixe a nova nos bornes sem cruzar os fios.",
+   "Feche e teste."
+  ],
+  "dica": "Modelo e voltagem têm que ser iguais.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-resistencia-chuveiro/1.webp",
+    "alt": "Ilustração do passo 1: Disjuntor off"
+   },
+   {
+    "arquivo": "img/trocar-resistencia-chuveiro/2.webp",
+    "alt": "Ilustração do passo 2: Solte a cúpula"
+   },
+   {
+    "arquivo": "img/trocar-resistencia-chuveiro/3.webp",
+    "alt": "Ilustração do passo 3: Tire a resistência queimada"
+   },
+   {
+    "arquivo": "img/trocar-resistencia-chuveiro/4.webp",
+    "alt": "Ilustração do passo 4: Encaixe a nova nos bornes sem cruzar os fios"
+   },
+   {
+    "arquivo": "img/trocar-resistencia-chuveiro/5.webp",
+    "alt": "Ilustração do passo 5: Feche e teste"
+   }
+  ]
+ },
+ {
+  "id": "limpar-ar-condicionado-filtro",
+  "tema": "casa",
+  "titulo": "Limpar o filtro do ar-condicionado",
+  "resumo": "Tirar o filtro da evaporadora e lavar o pó.",
+  "minutos": 15,
+  "material": [
+   "Água",
+   "Detergente neutro"
+  ],
+  "passos": [
+   "Desligue o aparelho.",
+   "Abra a tampa frontal.",
+   "Puxe os filtros.",
+   "Aspire ou lave com água fria.",
+   "Seque à sombra.",
+   "Encaixe de volta."
+  ],
+  "dica": "Filtro sujo aumenta conta de luz e cheiro de mofo.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/1.webp",
+    "alt": "Ilustração do passo 1: Desligue o aparelho"
+   },
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/2.webp",
+    "alt": "Ilustração do passo 2: Abra a tampa frontal"
+   },
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/3.webp",
+    "alt": "Ilustração do passo 3: Puxe os filtros"
+   },
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/4.webp",
+    "alt": "Ilustração do passo 4: Aspire ou lave com água fria"
+   },
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/5.webp",
+    "alt": "Ilustração do passo 5: Seque à sombra"
+   },
+   {
+    "arquivo": "img/limpar-ar-condicionado-filtro/6.webp",
+    "alt": "Ilustração do passo 6: Encaixe de volta"
+   }
+  ]
+ },
+ {
+  "id": "sangrar-registro",
+  "tema": "casa",
+  "titulo": "Tirar ar da torneira que cospe",
+  "resumo": "Quando a torneira treme depois de falta d'água.",
+  "minutos": 10,
+  "material": [
+   "Pano"
+  ],
+  "passos": [
+   "Abra todas as torneiras devagar.",
+   "Deixe correr até sair água contínua.",
+   "Feche da mais alta para a mais baixa.",
+   "Se o chuveiro espirrar, abra o registro um pouco."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/sangrar-registro/1.webp",
+    "alt": "Ilustração do passo 1: Abra todas as torneiras devagar"
+   },
+   {
+    "arquivo": "img/sangrar-registro/2.webp",
+    "alt": "Ilustração do passo 2: Deixe correr até sair água contínua"
+   },
+   {
+    "arquivo": "img/sangrar-registro/3.webp",
+    "alt": "Ilustração do passo 3: Feche da mais alta para a mais baixa"
+   },
+   {
+    "arquivo": "img/sangrar-registro/4.webp",
+    "alt": "Ilustração do passo 4: Se o chuveiro espirrar, abra o registro um pouco"
+   }
+  ]
+ },
+ {
+  "id": "limpar-maquina-cafe",
+  "tema": "casa",
+  "titulo": "Limpar a máquina de café",
+  "resumo": "Descalcificar com vinagre ou produto próprio.",
+  "minutos": 30,
+  "material": [
+   "Vinagre branco",
+   "Água"
+  ],
+  "passos": [
+   "Esvazie o reservatório.",
+   "Coloque vinagre e água 1:1 no reservatório.",
+   "Rode um ciclo sem café.",
+   "Rode dois ciclos só com água.",
+   "Lave o filtro e a jarra."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-maquina-cafe/1.webp",
+    "alt": "Ilustração do passo 1: Esvazie o reservatório"
+   },
+   {
+    "arquivo": "img/limpar-maquina-cafe/2.webp",
+    "alt": "Ilustração do passo 2: Coloque vinagre e água 1:1 no reservatório"
+   },
+   {
+    "arquivo": "img/limpar-maquina-cafe/3.webp",
+    "alt": "Ilustração do passo 3: Rode um ciclo sem café"
+   },
+   {
+    "arquivo": "img/limpar-maquina-cafe/4.webp",
+    "alt": "Ilustração do passo 4: Rode dois ciclos só com água"
+   },
+   {
+    "arquivo": "img/limpar-maquina-cafe/5.webp",
+    "alt": "Ilustração do passo 5: Lave o filtro e a jarra"
+   }
+  ]
+ },
+ {
+  "id": "organizar-gaveta-cozinha",
+  "tema": "casa",
+  "titulo": "Organizar a gaveta da cozinha",
+  "resumo": "Separar talher, pano e treco que some.",
+  "minutos": 20,
+  "material": [
+   "Divisórias ou potes baixos"
+  ],
+  "passos": [
+   "Esvazie a gaveta.",
+   "Jogue o que está quebrado.",
+   "Agrupe por uso.",
+   "Use um pote para elásticos e clipes.",
+   "Deixe o que usa todo dia na frente."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/organizar-gaveta-cozinha/1.webp",
+    "alt": "Ilustração do passo 1: Esvazie a gaveta"
+   },
+   {
+    "arquivo": "img/organizar-gaveta-cozinha/2.webp",
+    "alt": "Ilustração do passo 2: Jogue o que está quebrado"
+   },
+   {
+    "arquivo": "img/organizar-gaveta-cozinha/3.webp",
+    "alt": "Ilustração do passo 3: Agrupe por uso"
+   },
+   {
+    "arquivo": "img/organizar-gaveta-cozinha/4.webp",
+    "alt": "Ilustração do passo 4: Use um pote para elásticos e clipes"
+   },
+   {
+    "arquivo": "img/organizar-gaveta-cozinha/5.webp",
+    "alt": "Ilustração do passo 5: Deixe o que usa todo dia na frente"
+   }
+  ]
+ },
+ {
+  "id": "limpar-microondas",
+  "tema": "casa",
+  "titulo": "Limpar o micro-ondas que cheira a queimado",
+  "resumo": "Amolecer respingo com vapor de limão.",
+  "minutos": 15,
+  "material": [
+   "Limão ou vinagre",
+   "Tigela"
+  ],
+  "passos": [
+   "Tigela com água e rodelas de limão.",
+   "Ligue 3 minutos.",
+   "Espere 2 minutos com a porta fechada.",
+   "Passe pano úmido nas paredes.",
+   "Lave o prato giratório."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-microondas/1.webp",
+    "alt": "Ilustração do passo 1: Tigela com água e rodelas de limão"
+   },
+   {
+    "arquivo": "img/limpar-microondas/2.webp",
+    "alt": "Ilustração do passo 2: Ligue 3 minutos"
+   },
+   {
+    "arquivo": "img/limpar-microondas/3.webp",
+    "alt": "Ilustração do passo 3: Espere 2 minutos com a porta fechada"
+   },
+   {
+    "arquivo": "img/limpar-microondas/4.webp",
+    "alt": "Ilustração do passo 4: Passe pano úmido nas paredes"
+   },
+   {
+    "arquivo": "img/limpar-microondas/5.webp",
+    "alt": "Ilustração do passo 5: Lave o prato giratório"
+   }
+  ]
+ },
+ {
+  "id": "trocar-bagum-geladeira",
+  "tema": "casa",
+  "titulo": "Trocar a borracha da porta da geladeira",
+  "resumo": "Quando a porta não veda e pinga água no chão.",
+  "minutos": 35,
+  "material": [
+   "Borracha (gaxeta) nova do modelo",
+   "Secador"
+  ],
+  "passos": [
+   "Puxe a gaxeta velha a partir de um canto.",
+   "Encaixe a nova no canal.",
+   "Aqueça de leve com o secador para assentar.",
+   "Feche e teste com uma folha de papel — se sair fácil, ainda vaza."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-bagum-geladeira/1.webp",
+    "alt": "Ilustração do passo 1: Puxe a gaxeta velha a partir de um canto"
+   },
+   {
+    "arquivo": "img/trocar-bagum-geladeira/2.webp",
+    "alt": "Ilustração do passo 2: Encaixe a nova no canal"
+   },
+   {
+    "arquivo": "img/trocar-bagum-geladeira/3.webp",
+    "alt": "Ilustração do passo 3: Aqueça de leve com o secador para assentar"
+   },
+   {
+    "arquivo": "img/trocar-bagum-geladeira/4.webp",
+    "alt": "Ilustração do passo 4: Feche e teste com uma folha de papel — se sair fácil, ainda vaza"
+   }
+  ]
+ },
+ {
+  "id": "limpar-azulejo-rejunte",
+  "tema": "casa",
+  "titulo": "Embranquecer rejunte escuro",
+  "resumo": "Escovar o rejunte do box sem riscar o azulejo.",
+  "minutos": 40,
+  "material": [
+   "Pasta de bicarbonato",
+   "Escova de dente velha",
+   "Vinagre"
+  ],
+  "passos": [
+   "Faça pasta.",
+   "Esfregue no rejunte.",
+   "Borrife vinagre.",
+   "Espere borbulhar.",
+   "Enxágue."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-azulejo-rejunte/1.webp",
+    "alt": "Ilustração do passo 1: Faça pasta"
+   },
+   {
+    "arquivo": "img/limpar-azulejo-rejunte/2.webp",
+    "alt": "Ilustração do passo 2: Esfregue no rejunte"
+   },
+   {
+    "arquivo": "img/limpar-azulejo-rejunte/3.webp",
+    "alt": "Ilustração do passo 3: Borrife vinagre"
+   },
+   {
+    "arquivo": "img/limpar-azulejo-rejunte/4.webp",
+    "alt": "Ilustração do passo 4: Espere borbulhar"
+   },
+   {
+    "arquivo": "img/limpar-azulejo-rejunte/5.webp",
+    "alt": "Ilustração do passo 5: Enxágue"
+   }
+  ]
+ },
+ {
+  "id": "calafetar-pia",
+  "tema": "casa",
+  "titulo": "Calafetar a pia que vive molhando o armário",
+  "resumo": "Passar silicone sanitário na junta da cuba.",
+  "minutos": 25,
+  "material": [
+   "Silicone sanitário",
+   "Álcool",
+   "Fita crepe"
+  ],
+  "passos": [
+   "Seque tudo.",
+   "Tire o silicone velho.",
+   "Passe fita nas duas bordas.",
+   "Aplique um filete contínuo.",
+   "Alise com o dedo molhado.",
+   "Tire a fita na hora."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/calafetar-pia/1.webp",
+    "alt": "Ilustração do passo 1: Seque tudo"
+   },
+   {
+    "arquivo": "img/calafetar-pia/2.webp",
+    "alt": "Ilustração do passo 2: Tire o silicone velho"
+   },
+   {
+    "arquivo": "img/calafetar-pia/3.webp",
+    "alt": "Ilustração do passo 3: Passe fita nas duas bordas"
+   },
+   {
+    "arquivo": "img/calafetar-pia/4.webp",
+    "alt": "Ilustração do passo 4: Aplique um filete contínuo"
+   },
+   {
+    "arquivo": "img/calafetar-pia/5.webp",
+    "alt": "Ilustração do passo 5: Alise com o dedo molhado"
+   },
+   {
+    "arquivo": "img/calafetar-pia/6.webp",
+    "alt": "Ilustração do passo 6: Tire a fita na hora"
+   }
+  ]
+ },
+ {
+  "id": "plantar-manjericao",
+  "tema": "jardim",
+  "titulo": "Plantar manjericão em vaso",
+  "resumo": "Sol da manhã, terra solta e o ponto certo de água.",
+  "minutos": 20,
+  "material": [
+   "Vaso com furo",
+   "Terra vegetal",
+   "Muda ou semente"
+  ],
+  "passos": [
+   "Furos e uma camada de pedrisco no fundo.",
+   "Encha com terra solta.",
+   "Plante a muda na altura do torrão.",
+   "Regue até sair água no fundo.",
+   "Coloque em sol de 4 a 6 horas.",
+   "Colha as pontas para ramificar."
+  ],
+  "dica": "Folha mole demais = água demais.",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/plantar-manjericao/1.webp",
+    "alt": "Ilustração do passo 1: Furos e uma camada de pedrisco no fundo"
+   },
+   {
+    "arquivo": "img/plantar-manjericao/2.webp",
+    "alt": "Ilustração do passo 2: Encha com terra solta"
+   },
+   {
+    "arquivo": "img/plantar-manjericao/3.webp",
+    "alt": "Ilustração do passo 3: Plante a muda na altura do torrão"
+   },
+   {
+    "arquivo": "img/plantar-manjericao/4.webp",
+    "alt": "Ilustração do passo 4: Regue até sair água no fundo"
+   },
+   {
+    "arquivo": "img/plantar-manjericao/5.webp",
+    "alt": "Ilustração do passo 5: Coloque em sol de 4 a 6 horas"
+   },
+   {
+    "arquivo": "img/plantar-manjericao/6.webp",
+    "alt": "Ilustração do passo 6: Colha as pontas para ramificar"
+   }
+  ]
+ },
+ {
+  "id": "compostagem",
+  "tema": "jardim",
+  "titulo": "Começar uma composteira caseira",
+  "resumo": "O que vai, o que não vai, e como evitar cheiro.",
+  "minutos": 30,
+  "material": [
+   "Balde com tampa ou minhocário",
+   "Restos crus",
+   "Folha seca"
+  ],
+  "passos": [
+   "Alterne camada úmida (resto de fruta) e seca (folha, papelão).",
+   "Não coloque carne, laticínio nem gordura.",
+   "Misture uma vez por semana.",
+   "Se cheirar, acrescente seco.",
+   "O húmus sai em algumas semanas no fundo."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/compostagem/1.webp",
+    "alt": "Ilustração do passo 1: Alterne camada úmida (resto de fruta) e seca (folha, papelão)"
+   },
+   {
+    "arquivo": "img/compostagem/2.webp",
+    "alt": "Ilustração do passo 2: Não coloque carne, laticínio nem gordura"
+   },
+   {
+    "arquivo": "img/compostagem/3.webp",
+    "alt": "Ilustração do passo 3: Misture uma vez por semana"
+   },
+   {
+    "arquivo": "img/compostagem/4.webp",
+    "alt": "Ilustração do passo 4: Se cheirar, acrescente seco"
+   },
+   {
+    "arquivo": "img/compostagem/5.webp",
+    "alt": "Ilustração do passo 5: O húmus sai em algumas semanas no fundo"
+   }
+  ]
+ },
+ {
+  "id": "regar-vaso",
+  "tema": "jardim",
+  "titulo": "Saber quando regar o vaso",
+  "resumo": "O dedo na terra vale mais que o calendário.",
+  "minutos": 5,
+  "material": [
+   "Dedo ou palito"
+  ],
+  "passos": [
+   "Enfie o dedo 2 cm na terra.",
+   "Se sair sujo e frio, espere.",
+   "Se sair seco, regue até escorrer.",
+   "Esvazie o pratinho depois de 15 minutos."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/regar-vaso/1.webp",
+    "alt": "Ilustração do passo 1: Enfie o dedo 2 cm na terra"
+   },
+   {
+    "arquivo": "img/regar-vaso/2.webp",
+    "alt": "Ilustração do passo 2: Se sair sujo e frio, espere"
+   },
+   {
+    "arquivo": "img/regar-vaso/3.webp",
+    "alt": "Ilustração do passo 3: Se sair seco, regue até escorrer"
+   },
+   {
+    "arquivo": "img/regar-vaso/4.webp",
+    "alt": "Ilustração do passo 4: Esvazie o pratinho depois de 15 minutos"
+   }
+  ]
+ },
+ {
+  "id": "podar-roseira",
+  "tema": "jardim",
+  "titulo": "Podar roseira no tempo certo",
+  "resumo": "Corte enviesado acima de uma gema virada para fora.",
+  "minutos": 25,
+  "material": [
+   "Tesoura de poda limpa",
+   "Álcool"
+  ],
+  "passos": [
+   "Limpe a tesoura.",
+   "Tire galho seco e doente.",
+   "Corte 0,5 cm acima de uma gema externa.",
+   "Abra o centro da planta para o ar passar.",
+   "Regue."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/podar-roseira/1.webp",
+    "alt": "Ilustração do passo 1: Limpe a tesoura"
+   },
+   {
+    "arquivo": "img/podar-roseira/2.webp",
+    "alt": "Ilustração do passo 2: Tire galho seco e doente"
+   },
+   {
+    "arquivo": "img/podar-roseira/3.webp",
+    "alt": "Ilustração do passo 3: Corte 0,5 cm acima de uma gema externa"
+   },
+   {
+    "arquivo": "img/podar-roseira/4.webp",
+    "alt": "Ilustração do passo 4: Abra o centro da planta para o ar passar"
+   },
+   {
+    "arquivo": "img/podar-roseira/5.webp",
+    "alt": "Ilustração do passo 5: Regue"
+   }
+  ]
+ },
+ {
+  "id": "plantar-alface",
+  "tema": "jardim",
+  "titulo": "Plantar alface em jardineira",
+  "resumo": "Folha rápida para varanda.",
+  "minutos": 20,
+  "material": [
+   "Jardineira 20 cm de fundo",
+   "Mudas",
+   "Terra"
+  ],
+  "passos": [
+   "Espaçamento de um palmo entre mudas.",
+   "Sol da manhã.",
+   "Terra sempre levemente úmida.",
+   "Colha as folhas de fora primeiro."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/plantar-alface/1.webp",
+    "alt": "Ilustração do passo 1: Espaçamento de um palmo entre mudas"
+   },
+   {
+    "arquivo": "img/plantar-alface/2.webp",
+    "alt": "Ilustração do passo 2: Sol da manhã"
+   },
+   {
+    "arquivo": "img/plantar-alface/3.webp",
+    "alt": "Ilustração do passo 3: Terra sempre levemente úmida"
+   },
+   {
+    "arquivo": "img/plantar-alface/4.webp",
+    "alt": "Ilustração do passo 4: Colha as folhas de fora primeiro"
+   }
+  ]
+ },
+ {
+  "id": "formiga-vaso",
+  "tema": "jardim",
+  "titulo": "Afastar formiga do vaso sem veneno forte",
+  "resumo": "Canela, borra de café e água com detergente.",
+  "minutos": 10,
+  "material": [
+   "Canela em pó",
+   "Borra de café"
+  ],
+  "passos": [
+   "Tire o pratinho cheio d'água parada.",
+   "Polvilhe canela na borda.",
+   "Borra de café por cima da terra.",
+   "Acompanhe o caminho e tape o ninho no jardim."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/formiga-vaso/1.webp",
+    "alt": "Ilustração do passo 1: Tire o pratinho cheio d'água parada"
+   },
+   {
+    "arquivo": "img/formiga-vaso/2.webp",
+    "alt": "Ilustração do passo 2: Polvilhe canela na borda"
+   },
+   {
+    "arquivo": "img/formiga-vaso/3.webp",
+    "alt": "Ilustração do passo 3: Borra de café por cima da terra"
+   },
+   {
+    "arquivo": "img/formiga-vaso/4.webp",
+    "alt": "Ilustração do passo 4: Acompanhe o caminho e tape o ninho no jardim"
+   }
+  ]
+ },
+ {
+  "id": "replantar-vaso-apertado",
+  "tema": "jardim",
+  "titulo": "Replantar planta que estourou o vaso",
+  "resumo": "Quando a raiz sai pelo furo de baixo.",
+  "minutos": 25,
+  "material": [
+   "Vaso um número maior",
+   "Terra nova"
+  ],
+  "passos": [
+   "Regue a planta no dia anterior.",
+   "Vire o vaso e solte o torrão.",
+   "Solte um pouco as raízes emaranhadas.",
+   "Sente no vaso novo na mesma altura.",
+   "Complete terra e regue."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/replantar-vaso-apertado/1.webp",
+    "alt": "Ilustração do passo 1: Regue a planta no dia anterior"
+   },
+   {
+    "arquivo": "img/replantar-vaso-apertado/2.webp",
+    "alt": "Ilustração do passo 2: Vire o vaso e solte o torrão"
+   },
+   {
+    "arquivo": "img/replantar-vaso-apertado/3.webp",
+    "alt": "Ilustração do passo 3: Solte um pouco as raízes emaranhadas"
+   },
+   {
+    "arquivo": "img/replantar-vaso-apertado/4.webp",
+    "alt": "Ilustração do passo 4: Sente no vaso novo na mesma altura"
+   },
+   {
+    "arquivo": "img/replantar-vaso-apertado/5.webp",
+    "alt": "Ilustração do passo 5: Complete terra e regue"
+   }
+  ]
+ },
+ {
+  "id": "hortela-invasora",
+  "tema": "jardim",
+  "titulo": "Plantar hortelã sem invadir o canteiro",
+  "resumo": "Hortelã só em vaso — ela corre por baixo da terra.",
+  "minutos": 15,
+  "material": [
+   "Vaso próprio"
+  ],
+  "passos": [
+   "Nunca solte hortelã direto no canteiro.",
+   "Vaso com 20 cm.",
+   "Sol e água frequente.",
+   "Corte as pontas para não florescer cedo."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/hortela-invasora/1.webp",
+    "alt": "Ilustração do passo 1: Nunca solte hortelã direto no canteiro"
+   },
+   {
+    "arquivo": "img/hortela-invasora/2.webp",
+    "alt": "Ilustração do passo 2: Vaso com 20 cm"
+   },
+   {
+    "arquivo": "img/hortela-invasora/3.webp",
+    "alt": "Ilustração do passo 3: Sol e água frequente"
+   },
+   {
+    "arquivo": "img/hortela-invasora/4.webp",
+    "alt": "Ilustração do passo 4: Corte as pontas para não florescer cedo"
+   }
+  ]
+ },
+ {
+  "id": "adubo-caseiro",
+  "tema": "jardim",
+  "titulo": "Fazer adubo de casca de ovo e banana",
+  "resumo": "Cálcio e potássio baratos para vaso.",
+  "minutos": 15,
+  "material": [
+   "Cascas secas",
+   "Liquidificador ou saco"
+  ],
+  "passos": [
+   "Seque as cascas no sol.",
+   "Triture fino.",
+   "Espalhe na terra e cubra.",
+   "Não encoste no caule."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/adubo-caseiro/1.webp",
+    "alt": "Ilustração do passo 1: Seque as cascas no sol"
+   },
+   {
+    "arquivo": "img/adubo-caseiro/2.webp",
+    "alt": "Ilustração do passo 2: Triture fino"
+   },
+   {
+    "arquivo": "img/adubo-caseiro/3.webp",
+    "alt": "Ilustração do passo 3: Espalhe na terra e cubra"
+   },
+   {
+    "arquivo": "img/adubo-caseiro/4.webp",
+    "alt": "Ilustração do passo 4: Não encoste no caule"
+   }
+  ]
+ },
+ {
+  "id": "regador-furado",
+  "tema": "jardim",
+  "titulo": "Gotejador de garrafa PET com furinhos na tampa",
+  "resumo": "Rega lenta quando viaja o fim de semana.",
+  "minutos": 10,
+  "material": [
+   "Garrafa pet",
+   "Agulha"
+  ],
+  "passos": [
+   "Fure a tampa 3 vezes.",
+   "Encha d'água.",
+   "Enterre o pescoço na terra.",
+   "Ajuste o número de furos se encharcar."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/regador-furado/1.webp",
+    "alt": "Ilustração do passo 1: Fure a tampa 3 vezes"
+   },
+   {
+    "arquivo": "img/regador-furado/2.webp",
+    "alt": "Ilustração do passo 2: Encha d'água"
+   },
+   {
+    "arquivo": "img/regador-furado/3.webp",
+    "alt": "Ilustração do passo 3: Enterre o pescoço na terra"
+   },
+   {
+    "arquivo": "img/regador-furado/4.webp",
+    "alt": "Ilustração do passo 4: Ajuste o número de furos se encharcar"
+   }
+  ]
+ },
+ {
+  "id": "muda-suculenta",
+  "tema": "jardim",
+  "titulo": "Fazer muda de suculenta pela folha",
+  "resumo": "Folha sã, sombra e paciência.",
+  "minutos": 10,
+  "material": [
+   "Folha inteira",
+   "Terra arenosa"
+  ],
+  "passos": [
+   "Torça a folha inteira.",
+   "Deixe cicatrizar 2 dias.",
+   "Apoie sobre terra seca.",
+   "Borrife de leve quando nascer raiz."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/muda-suculenta/1.webp",
+    "alt": "Ilustração do passo 1: Torça a folha inteira"
+   },
+   {
+    "arquivo": "img/muda-suculenta/2.webp",
+    "alt": "Ilustração do passo 2: Deixe cicatrizar 2 dias"
+   },
+   {
+    "arquivo": "img/muda-suculenta/3.webp",
+    "alt": "Ilustração do passo 3: Apoie sobre terra seca"
+   },
+   {
+    "arquivo": "img/muda-suculenta/4.webp",
+    "alt": "Ilustração do passo 4: Borrife de leve quando nascer raiz"
+   }
+  ]
+ },
+ {
+  "id": "limpar-ferramenta-jardim",
+  "tema": "jardim",
+  "titulo": "Limpar tesoura de poda enferrujada",
+  "resumo": "Vinagre, palha de aço e óleo.",
+  "minutos": 20,
+  "material": [
+   "Vinagre",
+   "Palha de aço",
+   "Óleo"
+  ],
+  "passos": [
+   "Deixe as lâminas de molho no vinagre 20 minutos.",
+   "Esfregue.",
+   "Seque.",
+   "Passe óleo fino."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-ferramenta-jardim/1.webp",
+    "alt": "Ilustração do passo 1: Deixe as lâminas de molho no vinagre 20 minutos"
+   },
+   {
+    "arquivo": "img/limpar-ferramenta-jardim/2.webp",
+    "alt": "Ilustração do passo 2: Esfregue"
+   },
+   {
+    "arquivo": "img/limpar-ferramenta-jardim/3.webp",
+    "alt": "Ilustração do passo 3: Seque"
+   },
+   {
+    "arquivo": "img/limpar-ferramenta-jardim/4.webp",
+    "alt": "Ilustração do passo 4: Passe óleo fino"
+   }
+  ]
+ },
+ {
+  "id": "grama-amarela",
+  "tema": "jardim",
+  "titulo": "Entender grama amarela",
+  "resumo": "Pode ser água de menos, de mais ou urina de cachorro.",
+  "minutos": 15,
+  "material": [
+   "Regador",
+   "Areia"
+  ],
+  "passos": [
+   "Se o solo está duro e claro, regue fundo de manhã.",
+   "Se está lodoso, pare a água.",
+   "Mancha redonda de pet: lave com água na hora.",
+   "Adube só se a folha nova nascer pálida."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/grama-amarela/1.webp",
+    "alt": "Ilustração do passo 1: Se o solo está duro e claro, regue fundo de manhã"
+   },
+   {
+    "arquivo": "img/grama-amarela/2.webp",
+    "alt": "Ilustração do passo 2: Se está lodoso, pare a água"
+   },
+   {
+    "arquivo": "img/grama-amarela/3.webp",
+    "alt": "Ilustração do passo 3: Mancha redonda de pet: lave com água na hora"
+   },
+   {
+    "arquivo": "img/grama-amarela/4.webp",
+    "alt": "Ilustração do passo 4: Adube só se a folha nova nascer pálida"
+   }
+  ]
+ },
+ {
+  "id": "horta-tempero",
+  "tema": "jardim",
+  "titulo": "Horta de tempero na janela",
+  "resumo": "Salsinha, cebolinha e manjericão juntos.",
+  "minutos": 25,
+  "material": [
+   "3 vasos ou uma jardineira",
+   "Sol"
+  ],
+  "passos": [
+   "Cada tempero no seu vaso evita raiz brigando.",
+   "4 horas de sol.",
+   "Colha com tesoura, não arranque o tufo.",
+   "Replante salsinha todo ano."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/horta-tempero/1.webp",
+    "alt": "Ilustração do passo 1: Cada tempero no seu vaso evita raiz brigando"
+   },
+   {
+    "arquivo": "img/horta-tempero/2.webp",
+    "alt": "Ilustração do passo 2: 4 horas de sol"
+   },
+   {
+    "arquivo": "img/horta-tempero/3.webp",
+    "alt": "Ilustração do passo 3: Colha com tesoura, não arranque o tufo"
+   },
+   {
+    "arquivo": "img/horta-tempero/4.webp",
+    "alt": "Ilustração do passo 4: Replante salsinha todo ano"
+   }
+  ]
+ },
+ {
+  "id": "espantar-pulgao",
+  "tema": "jardim",
+  "titulo": "Espantar pulgão com sabão neutro",
+  "resumo": "Spray barato que não queima a folha se estiver na sombra.",
+  "minutos": 15,
+  "material": [
+   "Detergente neutro",
+   "Borrifador"
+  ],
+  "passos": [
+   "1 colher de detergente em 1 litro d'água.",
+   "Borrife o verso da folha.",
+   "Faça no fim da tarde.",
+   "Repita em 3 dias."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/espantar-pulgao/1.webp",
+    "alt": "Ilustração do passo 1: 1 colher de detergente em 1 litro d'água"
+   },
+   {
+    "arquivo": "img/espantar-pulgao/2.webp",
+    "alt": "Ilustração do passo 2: Borrife o verso da folha"
+   },
+   {
+    "arquivo": "img/espantar-pulgao/3.webp",
+    "alt": "Ilustração do passo 3: Faça no fim da tarde"
+   },
+   {
+    "arquivo": "img/espantar-pulgao/4.webp",
+    "alt": "Ilustração do passo 4: Repita em 3 dias"
+   }
+  ]
+ },
+ {
+  "id": "cabo-dados-ou-carga",
+  "tema": "eletronicos",
+  "titulo": "Saber se o cabo só carrega ou passa arquivo",
+  "resumo": "O teste que evita o Garmin invisível.",
+  "minutos": 5,
+  "material": [
+   "Cabo",
+   "Celular",
+   "Pendrive ou GPS"
+  ],
+  "passos": [
+   "Conecte o GPS ou um pendrive no celular com OTG.",
+   "Se o Files mostrar pastas, o cabo tem dados.",
+   "Se só esquenta e não aparece nada, é cabo de carga.",
+   "Marque os cabos com fita."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/cabo-dados-ou-carga/1.webp",
+    "alt": "Ilustração do passo 1: Conecte o GPS ou um pendrive no celular com OTG"
+   },
+   {
+    "arquivo": "img/cabo-dados-ou-carga/2.webp",
+    "alt": "Ilustração do passo 2: Se o Files mostrar pastas, o cabo tem dados"
+   },
+   {
+    "arquivo": "img/cabo-dados-ou-carga/3.webp",
+    "alt": "Ilustração do passo 3: Se só esquenta e não aparece nada, é cabo de carga"
+   },
+   {
+    "arquivo": "img/cabo-dados-ou-carga/4.webp",
+    "alt": "Ilustração do passo 4: Marque os cabos com fita"
+   }
+  ]
+ },
+ {
+  "id": "limpar-fone-ouvido",
+  "tema": "eletronicos",
+  "titulo": "Limpar fone que perdeu o grave",
+  "resumo": "Cera na grade mata o som.",
+  "minutos": 10,
+  "material": [
+   "Palito",
+   "Escova seca",
+   "Álcool só no silicone"
+  ],
+  "passos": [
+   "Tire a capinha de silicone.",
+   "Escove a grade seca.",
+   "Não derrame líquido no driver.",
+   "Lave só o silicone."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-fone-ouvido/1.webp",
+    "alt": "Ilustração do passo 1: Tire a capinha de silicone"
+   },
+   {
+    "arquivo": "img/limpar-fone-ouvido/2.webp",
+    "alt": "Ilustração do passo 2: Escove a grade seca"
+   },
+   {
+    "arquivo": "img/limpar-fone-ouvido/3.webp",
+    "alt": "Ilustração do passo 3: Não derrame líquido no driver"
+   },
+   {
+    "arquivo": "img/limpar-fone-ouvido/4.webp",
+    "alt": "Ilustração do passo 4: Lave só o silicone"
+   }
+  ]
+ },
+ {
+  "id": "economizar-bateria-celular",
+  "tema": "eletronicos",
+  "titulo": "Segurar a bateria do celular no fim do dia",
+  "resumo": "Brilho, 5G e app em segundo plano.",
+  "minutos": 5,
+  "material": [
+   "O próprio celular"
+  ],
+  "passos": [
+   "Brilho automático ou baixo.",
+   "Desligue 5G se o sinal for ruim.",
+   "Feche GPS se não estiver na rua.",
+   "Modo economia quando passar de 20%."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/economizar-bateria-celular/1.webp",
+    "alt": "Ilustração do passo 1: Brilho automático ou baixo"
+   },
+   {
+    "arquivo": "img/economizar-bateria-celular/2.webp",
+    "alt": "Ilustração do passo 2: Desligue 5G se o sinal for ruim"
+   },
+   {
+    "arquivo": "img/economizar-bateria-celular/3.webp",
+    "alt": "Ilustração do passo 3: Feche GPS se não estiver na rua"
+   },
+   {
+    "arquivo": "img/economizar-bateria-celular/4.webp",
+    "alt": "Ilustração do passo 4: Modo economia quando passar de 20%"
+   }
+  ]
+ },
+ {
+  "id": "backup-fotos-whatsapp",
+  "tema": "eletronicos",
+  "titulo": "Não perder foto do WhatsApp",
+  "resumo": "O Zap apaga mídia antiga do aparelho.",
+  "minutos": 10,
+  "material": [
+   "Google Fotos ou cabo"
+  ],
+  "passos": [
+   "No WhatsApp: Configurações > Conversas > Backup de conversas.",
+   "Além disso, copie a pasta WhatsApp/Media no computador.",
+   "Não confie só no backup do próprio Zap."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/backup-fotos-whatsapp/1.webp",
+    "alt": "Ilustração do passo 1: No WhatsApp: Configurações > Conversas > Backup de conversas"
+   },
+   {
+    "arquivo": "img/backup-fotos-whatsapp/2.webp",
+    "alt": "Ilustração do passo 2: Além disso, copie a pasta WhatsApp/Media no computador"
+   },
+   {
+    "arquivo": "img/backup-fotos-whatsapp/3.webp",
+    "alt": "Ilustração do passo 3: Não confie só no backup do próprio Zap"
+   }
+  ]
+ },
+ {
+  "id": "resetar-roteador",
+  "tema": "eletronicos",
+  "titulo": "Reiniciar o roteador quando a internet cai",
+  "resumo": "90% das 'quedas' se resolvem assim.",
+  "minutos": 8,
+  "material": [
+   "Tomada do modem"
+  ],
+  "passos": [
+   "Desligue o modem da tomada.",
+   "Espere 30 segundos.",
+   "Ligue.",
+   "Espere os LEDs estabilizarem.",
+   "Se voltar todo dia, fale com a operadora."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/resetar-roteador/1.webp",
+    "alt": "Ilustração do passo 1: Desligue o modem da tomada"
+   },
+   {
+    "arquivo": "img/resetar-roteador/2.webp",
+    "alt": "Ilustração do passo 2: Espere 30 segundos"
+   },
+   {
+    "arquivo": "img/resetar-roteador/3.webp",
+    "alt": "Ilustração do passo 3: Ligue"
+   },
+   {
+    "arquivo": "img/resetar-roteador/4.webp",
+    "alt": "Ilustração do passo 4: Espere os LEDs estabilizarem"
+   },
+   {
+    "arquivo": "img/resetar-roteador/5.webp",
+    "alt": "Ilustração do passo 5: Se voltar todo dia, fale com a operadora"
+   }
+  ]
+ },
+ {
+  "id": "senha-wifi-visita",
+  "tema": "eletronicos",
+  "titulo": "Criar rede de visita no Wi-Fi",
+  "resumo": "Visita na internet sem ver seu notebook.",
+  "minutos": 10,
+  "material": [
+   "Celular no app do roteador"
+  ],
+  "passos": [
+   "Abra o app da operadora ou 192.168.0.1.",
+   "Procure Guest / Rede de visita.",
+   "Crie senha temporária.",
+   "Desligue quando o visitante for embora."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/senha-wifi-visita/1.webp",
+    "alt": "Ilustração do passo 1: Abra o app da operadora ou 192.168.0.1"
+   },
+   {
+    "arquivo": "img/senha-wifi-visita/2.webp",
+    "alt": "Ilustração do passo 2: Procure Guest / Rede de visita"
+   },
+   {
+    "arquivo": "img/senha-wifi-visita/3.webp",
+    "alt": "Ilustração do passo 3: Crie senha temporária"
+   },
+   {
+    "arquivo": "img/senha-wifi-visita/4.webp",
+    "alt": "Ilustração do passo 4: Desligue quando o visitante for embora"
+   }
+  ]
+ },
+ {
+  "id": "limpar-teclado-notebook",
+  "tema": "eletronicos",
+  "titulo": "Limpar teclado de notebook",
+  "resumo": "Migalha e poeira sem derramar líquido.",
+  "minutos": 15,
+  "material": [
+   "Ar comprimido ou pincel",
+   "Álcool isopropílico no pano"
+  ],
+  "passos": [
+   "Desligue.",
+   "Vire e sacuda.",
+   "Pincel entre as teclas.",
+   "Pano levemente úmido por cima, nunca pingando."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-teclado-notebook/1.webp",
+    "alt": "Ilustração do passo 1: Desligue"
+   },
+   {
+    "arquivo": "img/limpar-teclado-notebook/2.webp",
+    "alt": "Ilustração do passo 2: Vire e sacuda"
+   },
+   {
+    "arquivo": "img/limpar-teclado-notebook/3.webp",
+    "alt": "Ilustração do passo 3: Pincel entre as teclas"
+   },
+   {
+    "arquivo": "img/limpar-teclado-notebook/4.webp",
+    "alt": "Ilustração do passo 4: Pano levemente úmido por cima, nunca pingando"
+   }
+  ]
+ },
+ {
+  "id": "atualizar-aplicativo",
+  "tema": "eletronicos",
+  "titulo": "Atualizar app que ficou lento",
+  "resumo": "Play Store e limpeza de cache.",
+  "minutos": 8,
+  "material": [
+   "Wi-Fi"
+  ],
+  "passos": [
+   "Play Store > seu perfil > Gerenciar apps.",
+   "Atualize o que estiver pendente.",
+   "Se continuar lento: Info do app > Limpar cache (não limpe dados sem backup)."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/atualizar-aplicativo/1.webp",
+    "alt": "Ilustração do passo 1: Play Store > seu perfil > Gerenciar apps"
+   },
+   {
+    "arquivo": "img/atualizar-aplicativo/2.webp",
+    "alt": "Ilustração do passo 2: Atualize o que estiver pendente"
+   },
+   {
+    "arquivo": "img/atualizar-aplicativo/3.webp",
+    "alt": "Ilustração do passo 3: Se continuar lento: Info do app > Limpar cache (não limpe dados sem backup)"
+   }
+  ]
+ },
+ {
+  "id": "tv-sem-som",
+  "tema": "eletronicos",
+  "titulo": "TV ligada sem som",
+  "resumo": "Mudo, ARC e controle errado.",
+  "minutos": 8,
+  "material": [
+   "Controle da TV"
+  ],
+  "passos": [
+   "Veja se não está no mudo.",
+   "Volume da barra de som separado.",
+   "Na TV, saída de áudio: TV speakers.",
+   "Tire o HDMI e coloque de novo."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/tv-sem-som/1.webp",
+    "alt": "Ilustração do passo 1: Veja se não está no mudo"
+   },
+   {
+    "arquivo": "img/tv-sem-som/2.webp",
+    "alt": "Ilustração do passo 2: Volume da barra de som separado"
+   },
+   {
+    "arquivo": "img/tv-sem-som/3.webp",
+    "alt": "Ilustração do passo 3: Na TV, saída de áudio: TV speakers"
+   },
+   {
+    "arquivo": "img/tv-sem-som/4.webp",
+    "alt": "Ilustração do passo 4: Tire o HDMI e coloque de novo"
+   }
+  ]
+ },
+ {
+  "id": "pendrive-nao-abre",
+  "tema": "eletronicos",
+  "titulo": "Pendrive que o computador não abre",
+  "resumo": "Testar a porta e só formatar depois de salvar o que importa.",
+  "minutos": 15,
+  "material": [
+   "Outro cabo ou porta USB"
+  ],
+  "passos": [
+   "Tente outra porta.",
+   "No celular com OTG, veja se as pastas aparecem.",
+   "Se pedir formatar, copie antes o que der.",
+   "Formate em FAT32 para TV e GPS."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/pendrive-nao-abre/1.webp",
+    "alt": "Ilustração do passo 1: Tente outra porta"
+   },
+   {
+    "arquivo": "img/pendrive-nao-abre/2.webp",
+    "alt": "Ilustração do passo 2: No celular com OTG, veja se as pastas aparecem"
+   },
+   {
+    "arquivo": "img/pendrive-nao-abre/3.webp",
+    "alt": "Ilustração do passo 3: Se pedir formatar, copie antes o que der"
+   },
+   {
+    "arquivo": "img/pendrive-nao-abre/4.webp",
+    "alt": "Ilustração do passo 4: Formate em FAT32 para TV e GPS"
+   }
+  ]
+ },
+ {
+  "id": "calibrar-bussola-celular",
+  "tema": "eletronicos",
+  "titulo": "Mapa do celular apontando errado",
+  "resumo": "Calibrar a bússola girando o celular em forma de 8.",
+  "minutos": 3,
+  "material": [
+   "Celular"
+  ],
+  "passos": [
+   "Abra o mapa.",
+   "Gire o aparelho em formato de 8.",
+   "Afaste de ímã, capa magnética e alto-falante."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/calibrar-bussola-celular/1.webp",
+    "alt": "Ilustração do passo 1: Abra o mapa"
+   },
+   {
+    "arquivo": "img/calibrar-bussola-celular/2.webp",
+    "alt": "Ilustração do passo 2: Gire o aparelho em formato de 8"
+   },
+   {
+    "arquivo": "img/calibrar-bussola-celular/3.webp",
+    "alt": "Ilustração do passo 3: Afaste de ímã, capa magnética e alto-falante"
+   }
+  ]
+ },
+ {
+  "id": "impressora-offline",
+  "tema": "eletronicos",
+  "titulo": "Impressora que aparece offline",
+  "resumo": "Fila travada e Wi-Fi da impressora.",
+  "minutos": 12,
+  "material": [
+   "Painel da impressora"
+  ],
+  "passos": [
+   "Cancele todos os trabalhos da fila.",
+   "Reinicie a impressora.",
+   "Confira se está no mesmo Wi-Fi do computador.",
+   "Imprima uma página de teste no painel."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/impressora-offline/1.webp",
+    "alt": "Ilustração do passo 1: Cancele todos os trabalhos da fila"
+   },
+   {
+    "arquivo": "img/impressora-offline/2.webp",
+    "alt": "Ilustração do passo 2: Reinicie a impressora"
+   },
+   {
+    "arquivo": "img/impressora-offline/3.webp",
+    "alt": "Ilustração do passo 3: Confira se está no mesmo Wi-Fi do computador"
+   },
+   {
+    "arquivo": "img/impressora-offline/4.webp",
+    "alt": "Ilustração do passo 4: Imprima uma página de teste no painel"
+   }
+  ]
+ },
+ {
+  "id": "limpar-tela-celular",
+  "tema": "eletronicos",
+  "titulo": "Limpar a tela do celular sem manchar",
+  "resumo": "Pano de óculos, sem papel toalha seco.",
+  "minutos": 3,
+  "material": [
+   "Pano de microfibra"
+  ],
+  "passos": [
+   "Desligue a tela.",
+   "Pano seco primeiro.",
+   "Se precisar, pano levemente úmido.",
+   "Evite álcool em excesso: ele desgasta a camada oleofóbica da tela."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-tela-celular/1.webp",
+    "alt": "Ilustração do passo 1: Desligue a tela"
+   },
+   {
+    "arquivo": "img/limpar-tela-celular/2.webp",
+    "alt": "Ilustração do passo 2: Pano seco primeiro"
+   },
+   {
+    "arquivo": "img/limpar-tela-celular/3.webp",
+    "alt": "Ilustração do passo 3: Se precisar, pano levemente úmido"
+   },
+   {
+    "arquivo": "img/limpar-tela-celular/4.webp",
+    "alt": "Ilustração do passo 4: Evite álcool em excesso: ele desgasta a camada oleofóbica da tela"
+   }
+  ]
+ },
+ {
+  "id": "organizar-cabos",
+  "tema": "eletronicos",
+  "titulo": "Organizar o emaranhado de cabos atrás da TV",
+  "resumo": "Abraçadeira e etiqueta.",
+  "minutos": 20,
+  "material": [
+   "Abraçadeira",
+   "Fita"
+  ],
+  "passos": [
+   "Desligue da tomada.",
+   "Etiquete cada cabo antes de soltar.",
+   "Agrupe por aparelho.",
+   "Deixe folga para não puxar o HDMI."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/organizar-cabos/1.webp",
+    "alt": "Ilustração do passo 1: Desligue da tomada"
+   },
+   {
+    "arquivo": "img/organizar-cabos/2.webp",
+    "alt": "Ilustração do passo 2: Etiquete cada cabo antes de soltar"
+   },
+   {
+    "arquivo": "img/organizar-cabos/3.webp",
+    "alt": "Ilustração do passo 3: Agrupe por aparelho"
+   },
+   {
+    "arquivo": "img/organizar-cabos/4.webp",
+    "alt": "Ilustração do passo 4: Deixe folga para não puxar o HDMI"
+   }
+  ]
+ },
+ {
+  "id": "powerbank-parado",
+  "tema": "eletronicos",
+  "titulo": "Powerbank que não carrega mais o celular",
+  "resumo": "Ciclo, cabo e o botão de ligar.",
+  "minutos": 8,
+  "material": [
+   "Cabo de dados"
+  ],
+  "passos": [
+   "Aperte o botão do powerbank.",
+   "Troque o cabo.",
+   "Carregue o banco até o LED cheio.",
+   "Se esquentar parado, aposente — bateria inchada não se usa."
+  ],
+  "dica": "",
+  "aviso": "Bateria inchada: pare de usar.",
+  "imagens": [
+   {
+    "arquivo": "img/powerbank-parado/1.webp",
+    "alt": "Ilustração do passo 1: Aperte o botão do powerbank"
+   },
+   {
+    "arquivo": "img/powerbank-parado/2.webp",
+    "alt": "Ilustração do passo 2: Troque o cabo"
+   },
+   {
+    "arquivo": "img/powerbank-parado/3.webp",
+    "alt": "Ilustração do passo 3: Carregue o banco até o LED cheio"
+   },
+   {
+    "arquivo": "img/powerbank-parado/4.webp",
+    "alt": "Ilustração do passo 4: Se esquentar parado, aposente — bateria inchada não se usa"
+   }
+  ]
+ },
+ {
+  "id": "despertador-silencio",
+  "tema": "eletronicos",
+  "titulo": "Despertador que não toca no Android",
+  "resumo": "Não perturbe e volume de alarme separado.",
+  "minutos": 5,
+  "material": [
+   "Celular"
+  ],
+  "passos": [
+   "Volume de alarme no máximo.",
+   "Desligue Não perturbe ou autorize o relógio.",
+   "Tire a economia de bateria do app Relógio.",
+   "Teste um alarme para daqui 1 minuto."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/despertador-silencio/1.webp",
+    "alt": "Ilustração do passo 1: Volume de alarme no máximo"
+   },
+   {
+    "arquivo": "img/despertador-silencio/2.webp",
+    "alt": "Ilustração do passo 2: Desligue Não perturbe ou autorize o relógio"
+   },
+   {
+    "arquivo": "img/despertador-silencio/3.webp",
+    "alt": "Ilustração do passo 3: Tire a economia de bateria do app Relógio"
+   },
+   {
+    "arquivo": "img/despertador-silencio/4.webp",
+    "alt": "Ilustração do passo 4: Teste um alarme para daqui 1 minuto"
+   }
+  ]
+ },
+ {
+  "id": "gps-offline-mapa",
+  "tema": "eletronicos",
+  "titulo": "Baixar mapa offline no celular",
+  "resumo": "Trilha sem sinal.",
+  "minutos": 10,
+  "material": [
+   "Wi-Fi",
+   "Google Maps ou app de trilha"
+  ],
+  "passos": [
+   "Maps > seu perfil > Mapas offline.",
+   "Baixe a região.",
+   "No mato, ative só o GPS, não precisa de dados."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/gps-offline-mapa/1.webp",
+    "alt": "Ilustração do passo 1: Maps > seu perfil > Mapas offline"
+   },
+   {
+    "arquivo": "img/gps-offline-mapa/2.webp",
+    "alt": "Ilustração do passo 2: Baixe a região"
+   },
+   {
+    "arquivo": "img/gps-offline-mapa/3.webp",
+    "alt": "Ilustração do passo 3: No mato, ative só o GPS, não precisa de dados"
+   }
+  ]
+ },
+ {
+  "id": "limpar-contato-pilha",
+  "tema": "eletronicos",
+  "titulo": "Controle que não liga mesmo com pilha nova",
+  "resumo": "Ferrugem ou oxidação na mola.",
+  "minutos": 8,
+  "material": [
+   "Vinagre no cotonete",
+   "Lixa fina"
+  ],
+  "passos": [
+   "Tire as pilhas.",
+   "Esfregue os contatos.",
+   "Um pouco de vinagre na oxidação verde.",
+   "Seque e coloque pilhas novas."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-contato-pilha/1.webp",
+    "alt": "Ilustração do passo 1: Tire as pilhas"
+   },
+   {
+    "arquivo": "img/limpar-contato-pilha/2.webp",
+    "alt": "Ilustração do passo 2: Esfregue os contatos"
+   },
+   {
+    "arquivo": "img/limpar-contato-pilha/3.webp",
+    "alt": "Ilustração do passo 3: Um pouco de vinagre na oxidação verde"
+   },
+   {
+    "arquivo": "img/limpar-contato-pilha/4.webp",
+    "alt": "Ilustração do passo 4: Seque e coloque pilhas novas"
+   }
+  ]
+ },
+ {
+  "id": "ssd-lento-pc",
+  "tema": "eletronicos",
+  "titulo": "PC que ficou lento do nada",
+  "resumo": "Inicialização e espaço no disco.",
+  "minutos": 15,
+  "material": [
+   "O próprio PC com Windows"
+  ],
+  "passos": [
+   "Veja se o disco está com menos de 15% de espaço livre.",
+   "Desinstale o que não usa.",
+   "Reinicie.",
+   "No gerenciador de tarefas, veja o que sobe com o Windows."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/ssd-lento-pc/1.webp",
+    "alt": "Ilustração do passo 1: Veja se o disco está com menos de 15% de espaço livre"
+   },
+   {
+    "arquivo": "img/ssd-lento-pc/2.webp",
+    "alt": "Ilustração do passo 2: Desinstale o que não usa"
+   },
+   {
+    "arquivo": "img/ssd-lento-pc/3.webp",
+    "alt": "Ilustração do passo 3: Reinicie"
+   },
+   {
+    "arquivo": "img/ssd-lento-pc/4.webp",
+    "alt": "Ilustração do passo 4: No gerenciador de tarefas, veja o que sobe com o Windows"
+   }
+  ]
+ },
+ {
+  "id": "camera-embacada",
+  "tema": "eletronicos",
+  "titulo": "Câmera do celular embaçada",
+  "resumo": "Umidade entre o vidro e a lente.",
+  "minutos": 30,
+  "material": [
+   "Pacote de arroz ou sílica",
+   "Pano"
+  ],
+  "passos": [
+   "Desligue.",
+   "Deixe num pote com sílica ou arroz 24 h.",
+   "Não use secador quente perto da lente.",
+   "Se persistir, é junta rompida."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/camera-embacada/1.webp",
+    "alt": "Ilustração do passo 1: Desligue"
+   },
+   {
+    "arquivo": "img/camera-embacada/2.webp",
+    "alt": "Ilustração do passo 2: Deixe num pote com sílica ou arroz 24 h"
+   },
+   {
+    "arquivo": "img/camera-embacada/3.webp",
+    "alt": "Ilustração do passo 3: Não use secador quente perto da lente"
+   },
+   {
+    "arquivo": "img/camera-embacada/4.webp",
+    "alt": "Ilustração do passo 4: Se persistir, é junta rompida"
+   }
+  ]
+ },
+ {
+  "id": "whatsapp-dois-celulares",
+  "tema": "eletronicos",
+  "titulo": "Usar o mesmo WhatsApp no celular e no computador",
+  "resumo": "WhatsApp Web sem perder o telefone.",
+  "minutos": 5,
+  "material": [
+   "Navegador"
+  ],
+  "passos": [
+   "No WhatsApp do celular: ⋮ > Dispositivos conectados > Conectar dispositivo.",
+   "No computador abra web.whatsapp.com.",
+   "Aponte o celular para o QR code da tela.",
+   "Não toque em 'Sair' no celular."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/whatsapp-dois-celulares/1.webp",
+    "alt": "Ilustração do passo 1: No WhatsApp do celular: ⋮ > Dispositivos conectados > Conectar dispositivo"
+   },
+   {
+    "arquivo": "img/whatsapp-dois-celulares/2.webp",
+    "alt": "Ilustração do passo 2: No computador abra web.whatsapp.com"
+   },
+   {
+    "arquivo": "img/whatsapp-dois-celulares/3.webp",
+    "alt": "Ilustração do passo 3: Aponte o celular para o QR code da tela"
+   },
+   {
+    "arquivo": "img/whatsapp-dois-celulares/4.webp",
+    "alt": "Ilustração do passo 4: Não toque em 'Sair' no celular"
+   }
+  ]
+ },
+ {
+  "id": "limpar-ventilador",
+  "tema": "casa",
+  "titulo": "Limpar ventilador engordurado",
+  "resumo": "Pá por pá, sem molhar o motor.",
+  "minutos": 25,
+  "material": [
+   "Chave",
+   "Detergente",
+   "Pano"
+  ],
+  "passos": [
+   "Desligue da tomada.",
+   "Solte a grade.",
+   "Lave as pás e a grade.",
+   "Pano só úmido no motor.",
+   "Seque antes de ligar."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-ventilador/1.webp",
+    "alt": "Ilustração do passo 1: Desligue da tomada"
+   },
+   {
+    "arquivo": "img/limpar-ventilador/2.webp",
+    "alt": "Ilustração do passo 2: Solte a grade"
+   },
+   {
+    "arquivo": "img/limpar-ventilador/3.webp",
+    "alt": "Ilustração do passo 3: Lave as pás e a grade"
+   },
+   {
+    "arquivo": "img/limpar-ventilador/4.webp",
+    "alt": "Ilustração do passo 4: Pano só úmido no motor"
+   },
+   {
+    "arquivo": "img/limpar-ventilador/5.webp",
+    "alt": "Ilustração do passo 5: Seque antes de ligar"
+   }
+  ]
+ },
+ {
+  "id": "trocar-pilha-relogio-parede",
+  "tema": "casa",
+  "titulo": "Trocar a pilha do relógio de parede",
+  "resumo": "Quando o ponteiro dos segundos dá um tic e volta.",
+  "minutos": 5,
+  "material": [
+   "Pilha AA"
+  ],
+  "passos": [
+   "Abra a tampa.",
+   "Respeite + e −.",
+   "Se o relógio atrasar com pilha nova, é o mecanismo."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-pilha-relogio-parede/1.webp",
+    "alt": "Ilustração do passo 1: Abra a tampa"
+   },
+   {
+    "arquivo": "img/trocar-pilha-relogio-parede/2.webp",
+    "alt": "Ilustração do passo 2: Respeite + e −"
+   },
+   {
+    "arquivo": "img/trocar-pilha-relogio-parede/3.webp",
+    "alt": "Ilustração do passo 3: Se o relógio atrasar com pilha nova, é o mecanismo"
+   }
+  ]
+ },
+ {
+  "id": "passar-pano-chao",
+  "tema": "casa",
+  "titulo": "Lavar o chão sem deixar marca",
+  "resumo": "Do fundo da casa para a porta, água pouco suja.",
+  "minutos": 20,
+  "material": [
+   "Balde",
+   "Detergente neutro",
+   "Rodo"
+  ],
+  "passos": [
+   "Varra primeiro.",
+   "Água morna com pouco produto.",
+   "Faixas do fundo para a saída.",
+   "Troque a água quando escurecer.",
+   "Não encharque taco de madeira."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/passar-pano-chao/1.webp",
+    "alt": "Ilustração do passo 1: Varra primeiro"
+   },
+   {
+    "arquivo": "img/passar-pano-chao/2.webp",
+    "alt": "Ilustração do passo 2: Água morna com pouco produto"
+   },
+   {
+    "arquivo": "img/passar-pano-chao/3.webp",
+    "alt": "Ilustração do passo 3: Faixas do fundo para a saída"
+   },
+   {
+    "arquivo": "img/passar-pano-chao/4.webp",
+    "alt": "Ilustração do passo 4: Troque a água quando escurecer"
+   },
+   {
+    "arquivo": "img/passar-pano-chao/5.webp",
+    "alt": "Ilustração do passo 5: Não encharque taco de madeira"
+   }
+  ]
+ },
+ {
+  "id": "organizar-geladeira",
+  "tema": "casa",
+  "titulo": "Organizar a geladeira para não estragar comida",
+  "resumo": "Prateleira certa para cada coisa.",
+  "minutos": 20,
+  "material": [
+   "Potes transparentes"
+  ],
+  "passos": [
+   "Porta: molho e bebida, não leite.",
+   "Gaveta: folha e fruta.",
+   "Prateleira de cima: resto pronto.",
+   "Fundo: carne crua bem fechada."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/organizar-geladeira/1.webp",
+    "alt": "Ilustração do passo 1: Porta: molho e bebida, não leite"
+   },
+   {
+    "arquivo": "img/organizar-geladeira/2.webp",
+    "alt": "Ilustração do passo 2: Gaveta: folha e fruta"
+   },
+   {
+    "arquivo": "img/organizar-geladeira/3.webp",
+    "alt": "Ilustração do passo 3: Prateleira de cima: resto pronto"
+   },
+   {
+    "arquivo": "img/organizar-geladeira/4.webp",
+    "alt": "Ilustração do passo 4: Fundo: carne crua bem fechada"
+   }
+  ]
+ },
+ {
+  "id": "limpar-espelho",
+  "tema": "casa",
+  "titulo": "Limpar espelho sem fiapo",
+  "resumo": "Jornal ou microfibra, nunca papel toalha grosso.",
+  "minutos": 8,
+  "material": [
+   "Vidrex ou vinagre",
+   "Microfibra"
+  ],
+  "passos": [
+   "Borrife no pano, não no espelho.",
+   "Faça um W.",
+   "Acabe com pano seco."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-espelho/1.webp",
+    "alt": "Ilustração do passo 1: Borrife no pano, não no espelho"
+   },
+   {
+    "arquivo": "img/limpar-espelho/2.webp",
+    "alt": "Ilustração do passo 2: Faça um W"
+   },
+   {
+    "arquivo": "img/limpar-espelho/3.webp",
+    "alt": "Ilustração do passo 3: Acabe com pano seco"
+   }
+  ]
+ },
+ {
+  "id": "tirar-cheiro-lixo",
+  "tema": "casa",
+  "titulo": "Tirar cheiro do lixo da cozinha",
+  "resumo": "Balde, saco certo e bicarbonato.",
+  "minutos": 10,
+  "material": [
+   "Bicarbonato",
+   "Saco que serve"
+  ],
+  "passos": [
+   "Lave o balde com detergente.",
+   "Seque.",
+   "Coloque bicarbonato no fundo.",
+   "Aperte bem o saco de resto de comida."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/tirar-cheiro-lixo/1.webp",
+    "alt": "Ilustração do passo 1: Lave o balde com detergente"
+   },
+   {
+    "arquivo": "img/tirar-cheiro-lixo/2.webp",
+    "alt": "Ilustração do passo 2: Seque"
+   },
+   {
+    "arquivo": "img/tirar-cheiro-lixo/3.webp",
+    "alt": "Ilustração do passo 3: Coloque bicarbonato no fundo"
+   },
+   {
+    "arquivo": "img/tirar-cheiro-lixo/4.webp",
+    "alt": "Ilustração do passo 4: Aperte bem o saco de resto de comida"
+   }
+  ]
+ },
+ {
+  "id": "dobrar-lencol-elastico",
+  "tema": "casa",
+  "titulo": "Dobrar lençol de elástico",
+  "resumo": "O truque de meter um canto no outro.",
+  "minutos": 5,
+  "material": [
+   "Lençol"
+  ],
+  "passos": [
+   "Meta as duas mãos nos cantos curtos.",
+   "Una os cantos.",
+   "Dobre ao meio.",
+   "Reto no armário."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/dobrar-lencol-elastico/1.webp",
+    "alt": "Ilustração do passo 1: Meta as duas mãos nos cantos curtos"
+   },
+   {
+    "arquivo": "img/dobrar-lencol-elastico/2.webp",
+    "alt": "Ilustração do passo 2: Una os cantos"
+   },
+   {
+    "arquivo": "img/dobrar-lencol-elastico/3.webp",
+    "alt": "Ilustração do passo 3: Dobre ao meio"
+   },
+   {
+    "arquivo": "img/dobrar-lencol-elastico/4.webp",
+    "alt": "Ilustração do passo 4: Reto no armário"
+   }
+  ]
+ },
+ {
+  "id": "aspirar-sofa",
+  "tema": "casa",
+  "titulo": "Tirar migalha do sofá",
+  "resumo": "Bico estreito e almofada no chão.",
+  "minutos": 15,
+  "material": [
+   "Aspirador"
+  ],
+  "passos": [
+   "Tire as almofadas.",
+   "Aspire as frestas.",
+   "Bata as almofadas fora de casa.",
+   "Vire o assento se for solto."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/aspirar-sofa/1.webp",
+    "alt": "Ilustração do passo 1: Tire as almofadas"
+   },
+   {
+    "arquivo": "img/aspirar-sofa/2.webp",
+    "alt": "Ilustração do passo 2: Aspire as frestas"
+   },
+   {
+    "arquivo": "img/aspirar-sofa/3.webp",
+    "alt": "Ilustração do passo 3: Bata as almofadas fora de casa"
+   },
+   {
+    "arquivo": "img/aspirar-sofa/4.webp",
+    "alt": "Ilustração do passo 4: Vire o assento se for solto"
+   }
+  ]
+ },
+ {
+  "id": "limpar-varal",
+  "tema": "casa",
+  "titulo": "Limpar varal que mancha roupa",
+  "resumo": "Ferrugem e pó no arame.",
+  "minutos": 15,
+  "material": [
+   "Esponja",
+   "Vinagre"
+  ],
+  "passos": [
+   "Esfregue o arame.",
+   "Vinagre na ferrugem.",
+   "Seque.",
+   "Pano no começo da roupa evita risco."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-varal/1.webp",
+    "alt": "Ilustração do passo 1: Esfregue o arame"
+   },
+   {
+    "arquivo": "img/limpar-varal/2.webp",
+    "alt": "Ilustração do passo 2: Vinagre na ferrugem"
+   },
+   {
+    "arquivo": "img/limpar-varal/3.webp",
+    "alt": "Ilustração do passo 3: Seque"
+   },
+   {
+    "arquivo": "img/limpar-varal/4.webp",
+    "alt": "Ilustração do passo 4: Pano no começo da roupa evita risco"
+   }
+  ]
+ },
+ {
+  "id": "passar-camisa",
+  "tema": "casa",
+  "titulo": "Passar camisa social sem marca feia",
+  "resumo": "Colarinho primeiro, costas por último.",
+  "minutos": 12,
+  "material": [
+   "Ferro",
+   "Gancho"
+  ],
+  "passos": [
+   "Colarinho pelo avesso.",
+   "Palas.",
+   "Mangas.",
+   "Frente.",
+   "Costas.",
+   "Pendure na hora."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/passar-camisa/1.webp",
+    "alt": "Ilustração do passo 1: Colarinho pelo avesso"
+   },
+   {
+    "arquivo": "img/passar-camisa/2.webp",
+    "alt": "Ilustração do passo 2: Palas"
+   },
+   {
+    "arquivo": "img/passar-camisa/3.webp",
+    "alt": "Ilustração do passo 3: Mangas"
+   },
+   {
+    "arquivo": "img/passar-camisa/4.webp",
+    "alt": "Ilustração do passo 4: Frente"
+   },
+   {
+    "arquivo": "img/passar-camisa/5.webp",
+    "alt": "Ilustração do passo 5: Costas"
+   },
+   {
+    "arquivo": "img/passar-camisa/6.webp",
+    "alt": "Ilustração do passo 6: Pendure na hora"
+   }
+  ]
+ },
+ {
+  "id": "tirar-mancha-cafe",
+  "tema": "casa",
+  "titulo": "Tirar mancha de café de camiseta clara",
+  "resumo": "Água fria na hora, não água quente.",
+  "minutos": 10,
+  "material": [
+   "Sabão de pedra",
+   "Água fria"
+  ],
+  "passos": [
+   "Não esfregue com água quente.",
+   "Molhe o avesso.",
+   "Sabão na mancha.",
+   "Deixe 10 minutos.",
+   "Lave normal."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/tirar-mancha-cafe/1.webp",
+    "alt": "Ilustração do passo 1: Não esfregue com água quente"
+   },
+   {
+    "arquivo": "img/tirar-mancha-cafe/2.webp",
+    "alt": "Ilustração do passo 2: Molhe o avesso"
+   },
+   {
+    "arquivo": "img/tirar-mancha-cafe/3.webp",
+    "alt": "Ilustração do passo 3: Sabão na mancha"
+   },
+   {
+    "arquivo": "img/tirar-mancha-cafe/4.webp",
+    "alt": "Ilustração do passo 4: Deixe 10 minutos"
+   },
+   {
+    "arquivo": "img/tirar-mancha-cafe/5.webp",
+    "alt": "Ilustração do passo 5: Lave normal"
+   }
+  ]
+ },
+ {
+  "id": "costura-botao",
+  "tema": "casa",
+  "titulo": "Costurar botão que caiu",
+  "resumo": "Quatro furos, nó atrás.",
+  "minutos": 10,
+  "material": [
+   "Agulha",
+   "Linha da cor",
+   "Botão"
+  ],
+  "passos": [
+   "Dê um nó na linha.",
+   "Suba por um furo e desça no cruzado.",
+   "Repita 4 vezes.",
+   "Passe a linha por baixo das pontes e dê nó."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/costura-botao/1.webp",
+    "alt": "Ilustração do passo 1: Dê um nó na linha"
+   },
+   {
+    "arquivo": "img/costura-botao/2.webp",
+    "alt": "Ilustração do passo 2: Suba por um furo e desça no cruzado"
+   },
+   {
+    "arquivo": "img/costura-botao/3.webp",
+    "alt": "Ilustração do passo 3: Repita 4 vezes"
+   },
+   {
+    "arquivo": "img/costura-botao/4.webp",
+    "alt": "Ilustração do passo 4: Passe a linha por baixo das pontes e dê nó"
+   }
+  ]
+ },
+ {
+  "id": "limpar-tenis-branco",
+  "tema": "casa",
+  "titulo": "Limpar tênis branco de lona",
+  "resumo": "Bicarbonato e escova de dente.",
+  "minutos": 20,
+  "material": [
+   "Bicarbonato",
+   "Escova",
+   "Sabão"
+  ],
+  "passos": [
+   "Tire o cadarço.",
+   "Pasta de bicarbonato.",
+   "Escove.",
+   "Seque à sombra, nunca no forno."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-tenis-branco/1.webp",
+    "alt": "Ilustração do passo 1: Tire o cadarço"
+   },
+   {
+    "arquivo": "img/limpar-tenis-branco/2.webp",
+    "alt": "Ilustração do passo 2: Pasta de bicarbonato"
+   },
+   {
+    "arquivo": "img/limpar-tenis-branco/3.webp",
+    "alt": "Ilustração do passo 3: Escove"
+   },
+   {
+    "arquivo": "img/limpar-tenis-branco/4.webp",
+    "alt": "Ilustração do passo 4: Seque à sombra, nunca no forno"
+   }
+  ]
+ },
+ {
+  "id": "organizar-guarda-roupa",
+  "tema": "casa",
+  "titulo": "Organizar o guarda-roupa que não fecha",
+  "resumo": "Cabide para o que cai, dobra para o resto.",
+  "minutos": 40,
+  "material": [
+   "Saco de doação"
+  ],
+  "passos": [
+   "Tudo para fora.",
+   "Dois montes: usa / não usa.",
+   "Pendure camisa e casaco.",
+   "Dobre malha.",
+   "Caixa para fora de estação."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/organizar-guarda-roupa/1.webp",
+    "alt": "Ilustração do passo 1: Tudo para fora"
+   },
+   {
+    "arquivo": "img/organizar-guarda-roupa/2.webp",
+    "alt": "Ilustração do passo 2: Dois montes: usa / não usa"
+   },
+   {
+    "arquivo": "img/organizar-guarda-roupa/3.webp",
+    "alt": "Ilustração do passo 3: Pendure camisa e casaco"
+   },
+   {
+    "arquivo": "img/organizar-guarda-roupa/4.webp",
+    "alt": "Ilustração do passo 4: Dobre malha"
+   },
+   {
+    "arquivo": "img/organizar-guarda-roupa/5.webp",
+    "alt": "Ilustração do passo 5: Caixa para fora de estação"
+   }
+  ]
+ },
+ {
+  "id": "trocar-saco-aspirador",
+  "tema": "casa",
+  "titulo": "Trocar o saco do aspirador",
+  "resumo": "Quando o cheiro volta mesmo depois de aspirar.",
+  "minutos": 8,
+  "material": [
+   "Saco do modelo"
+  ],
+  "passos": [
+   "Desligue.",
+   "Abra o compartimento.",
+   "Feche a boca do saco velho.",
+   "Encaixe o novo até o clique."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-saco-aspirador/1.webp",
+    "alt": "Ilustração do passo 1: Desligue"
+   },
+   {
+    "arquivo": "img/trocar-saco-aspirador/2.webp",
+    "alt": "Ilustração do passo 2: Abra o compartimento"
+   },
+   {
+    "arquivo": "img/trocar-saco-aspirador/3.webp",
+    "alt": "Ilustração do passo 3: Feche a boca do saco velho"
+   },
+   {
+    "arquivo": "img/trocar-saco-aspirador/4.webp",
+    "alt": "Ilustração do passo 4: Encaixe o novo até o clique"
+   }
+  ]
+ },
+ {
+  "id": "limpar-vaso-sanitario-em-volta",
+  "tema": "casa",
+  "titulo": "Limpar o chão atrás da privada",
+  "resumo": "O canto que ninguém vê.",
+  "minutos": 10,
+  "material": [
+   "Escova",
+   "Desinfetante"
+  ],
+  "passos": [
+   "Afaste o tapete.",
+   "Passe desinfetante na base.",
+   "Escove o parafuso e o canto do rejunte.",
+   "Seque."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/limpar-vaso-sanitario-em-volta/1.webp",
+    "alt": "Ilustração do passo 1: Afaste o tapete"
+   },
+   {
+    "arquivo": "img/limpar-vaso-sanitario-em-volta/2.webp",
+    "alt": "Ilustração do passo 2: Passe desinfetante na base"
+   },
+   {
+    "arquivo": "img/limpar-vaso-sanitario-em-volta/3.webp",
+    "alt": "Ilustração do passo 3: Escove o parafuso e o canto do rejunte"
+   },
+   {
+    "arquivo": "img/limpar-vaso-sanitario-em-volta/4.webp",
+    "alt": "Ilustração do passo 4: Seque"
+   }
+  ]
+ },
+ {
+  "id": "trocar-rolha-torneira-jardim",
+  "tema": "jardim",
+  "titulo": "Trocar a vedação da torneira do quintal",
+  "resumo": "A torneira do jardim que pinga o verão inteiro.",
+  "minutos": 15,
+  "material": [
+   "Vedação nova",
+   "Chave"
+  ],
+  "passos": [
+   "Feche o registro do quintal.",
+   "Desmonte o volante.",
+   "Troque a borracha.",
+   "Abra e teste."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/trocar-rolha-torneira-jardim/1.webp",
+    "alt": "Ilustração do passo 1: Feche o registro do quintal"
+   },
+   {
+    "arquivo": "img/trocar-rolha-torneira-jardim/2.webp",
+    "alt": "Ilustração do passo 2: Desmonte o volante"
+   },
+   {
+    "arquivo": "img/trocar-rolha-torneira-jardim/3.webp",
+    "alt": "Ilustração do passo 3: Troque a borracha"
+   },
+   {
+    "arquivo": "img/trocar-rolha-torneira-jardim/4.webp",
+    "alt": "Ilustração do passo 4: Abra e teste"
+   }
+  ]
+ },
+ {
+  "id": "plantar-tomate-vaso",
+  "tema": "jardim",
+  "titulo": "Tomate-cereja em vaso grande",
+  "resumo": "Precisa de sol cheio e tutor.",
+  "minutos": 30,
+  "material": [
+   "Vaso 20 L",
+   "Tutor",
+   "Muda"
+  ],
+  "passos": [
+   "Vaso fundo.",
+   "Tutor na hora do plantio.",
+   "Sol o dia todo.",
+   "Regue a terra, não a folha.",
+   "Pince as brotações da axila se quiser mais fruto."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/plantar-tomate-vaso/1.webp",
+    "alt": "Ilustração do passo 1: Vaso fundo"
+   },
+   {
+    "arquivo": "img/plantar-tomate-vaso/2.webp",
+    "alt": "Ilustração do passo 2: Tutor na hora do plantio"
+   },
+   {
+    "arquivo": "img/plantar-tomate-vaso/3.webp",
+    "alt": "Ilustração do passo 3: Sol o dia todo"
+   },
+   {
+    "arquivo": "img/plantar-tomate-vaso/4.webp",
+    "alt": "Ilustração do passo 4: Regue a terra, não a folha"
+   },
+   {
+    "arquivo": "img/plantar-tomate-vaso/5.webp",
+    "alt": "Ilustração do passo 5: Pince as brotações da axila se quiser mais fruto"
+   }
+  ]
+ },
+ {
+  "id": "guardar-semente",
+  "tema": "jardim",
+  "titulo": "Guardar semente de pimenta e tomate",
+  "resumo": "Secar bem e guardar em envelope de papel.",
+  "minutos": 20,
+  "material": [
+   "Papel toalha",
+   "Envelope"
+  ],
+  "passos": [
+   "Retire a semente.",
+   "Lave a baba.",
+   "Seque 3 dias à sombra.",
+   "Envelope com nome e data.",
+   "Geladeira, não freezer."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/guardar-semente/1.webp",
+    "alt": "Ilustração do passo 1: Retire a semente"
+   },
+   {
+    "arquivo": "img/guardar-semente/2.webp",
+    "alt": "Ilustração do passo 2: Lave a baba"
+   },
+   {
+    "arquivo": "img/guardar-semente/3.webp",
+    "alt": "Ilustração do passo 3: Seque 3 dias à sombra"
+   },
+   {
+    "arquivo": "img/guardar-semente/4.webp",
+    "alt": "Ilustração do passo 4: Envelope com nome e data"
+   },
+   {
+    "arquivo": "img/guardar-semente/5.webp",
+    "alt": "Ilustração do passo 5: Geladeira, não freezer"
+   }
+  ]
+ },
+ {
+  "id": "canteiro-alto",
+  "tema": "jardim",
+  "titulo": "Montar um canteiro elevado de tijolo",
+  "resumo": "Menos dor nas costas e terra solta.",
+  "minutos": 120,
+  "material": [
+   "Tijolo",
+   "Lona",
+   "Terra"
+  ],
+  "passos": [
+   "Nivele o chão.",
+   "Empilhe duas ou três fiadas.",
+   "Fure a lona no fundo.",
+   "Encha com terra e composto.",
+   "Regue para assentar."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/canteiro-alto/1.webp",
+    "alt": "Ilustração do passo 1: Nivele o chão"
+   },
+   {
+    "arquivo": "img/canteiro-alto/2.webp",
+    "alt": "Ilustração do passo 2: Empilhe duas ou três fiadas"
+   },
+   {
+    "arquivo": "img/canteiro-alto/3.webp",
+    "alt": "Ilustração do passo 3: Fure a lona no fundo"
+   },
+   {
+    "arquivo": "img/canteiro-alto/4.webp",
+    "alt": "Ilustração do passo 4: Encha com terra e composto"
+   },
+   {
+    "arquivo": "img/canteiro-alto/5.webp",
+    "alt": "Ilustração do passo 5: Regue para assentar"
+   }
+  ]
+ },
+ {
+  "id": "cobertura-morta",
+  "tema": "jardim",
+  "titulo": "Cobrir a terra com folha seca",
+  "resumo": "Cobertura (mulch) que segura a água e abafa o mato.",
+  "minutos": 15,
+  "material": [
+   "Folha seca"
+  ],
+  "passos": [
+   "Regue a terra.",
+   "Cubra 3 cm de folha.",
+   "Afaste 2 cm do caule."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/cobertura-morta/1.webp",
+    "alt": "Ilustração do passo 1: Regue a terra"
+   },
+   {
+    "arquivo": "img/cobertura-morta/2.webp",
+    "alt": "Ilustração do passo 2: Cubra 3 cm de folha"
+   },
+   {
+    "arquivo": "img/cobertura-morta/3.webp",
+    "alt": "Ilustração do passo 3: Afaste 2 cm do caule"
+   }
+  ]
+ },
+ {
+  "id": "regar-de-manha",
+  "tema": "jardim",
+  "titulo": "Regar de manhã e não à noite",
+  "resumo": "Folha molhada de noite vira fungo.",
+  "minutos": 10,
+  "material": [
+   "Mangueira"
+  ],
+  "passos": [
+   "Regue cedo.",
+   "Molhe o pé, não a folhagem.",
+   "Poucas vezes fundo vale mais que todo dia pingando."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/regar-de-manha/1.webp",
+    "alt": "Ilustração do passo 1: Regue cedo"
+   },
+   {
+    "arquivo": "img/regar-de-manha/2.webp",
+    "alt": "Ilustração do passo 2: Molhe o pé, não a folhagem"
+   },
+   {
+    "arquivo": "img/regar-de-manha/3.webp",
+    "alt": "Ilustração do passo 3: Poucas vezes fundo vale mais que todo dia pingando"
+   }
+  ]
+ },
+ {
+  "id": "identificar-praga-folha",
+  "tema": "jardim",
+  "titulo": "Ler a folha furada",
+  "resumo": "Buraco redondo, prateado ou meia folha.",
+  "minutos": 10,
+  "material": [
+   "Olhos atentos (lupa ajuda)"
+  ],
+  "passos": [
+   "Furo irregular: lagarta — procure de noite.",
+   "Prateado: ácaro.",
+   "Folha enrolada: pulgão no broto.",
+   "Trate só o que viu."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/identificar-praga-folha/1.webp",
+    "alt": "Ilustração do passo 1: Furo irregular: lagarta — procure de noite"
+   },
+   {
+    "arquivo": "img/identificar-praga-folha/2.webp",
+    "alt": "Ilustração do passo 2: Prateado: ácaro"
+   },
+   {
+    "arquivo": "img/identificar-praga-folha/3.webp",
+    "alt": "Ilustração do passo 3: Folha enrolada: pulgão no broto"
+   },
+   {
+    "arquivo": "img/identificar-praga-folha/4.webp",
+    "alt": "Ilustração do passo 4: Trate só o que viu"
+   }
+  ]
+ },
+ {
+  "id": "vaso-sem-furo",
+  "tema": "jardim",
+  "titulo": "Salvar planta em vaso sem furo",
+  "resumo": "Camada de pedra não resolve encharcamento.",
+  "minutos": 15,
+  "material": [
+   "Cachepô",
+   "Ou: furadeira com broca para vidro/cerâmica",
+   "Fita crepe"
+  ],
+  "passos": [
+   "Prefira um cachepô: vaso interno furado, vaso de fora só bonito.",
+   "Se for furar cerâmica: fita crepe no ponto e broca de vidro em baixa rotação.",
+   "Esvazie prato depois da chuva."
+  ],
+  "dica": "",
+  "aviso": "",
+  "imagens": [
+   {
+    "arquivo": "img/vaso-sem-furo/1.webp",
+    "alt": "Ilustração do passo 1: Prefira um cachepô: vaso interno furado, vaso de fora só bonito"
+   },
+   {
+    "arquivo": "img/vaso-sem-furo/2.webp",
+    "alt": "Ilustração do passo 2: Se for furar cerâmica: fita crepe no ponto e broca de vidro em baixa rotação"
+   },
+   {
+    "arquivo": "img/vaso-sem-furo/3.webp",
+    "alt": "Ilustração do passo 3: Esvazie prato depois da chuva"
+   }
+  ]
+ }
+]
