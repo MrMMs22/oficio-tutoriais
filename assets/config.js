@@ -3,7 +3,7 @@
    nada aparece e nenhum script externo é carregado. */
 window.OFICIO_CONFIG = {
   // Link da página do Buy Me a Coffee, ex.: "https://buymeacoffee.com/seunome"
-  BMC_URL: "",
+  BMC_URL: "https://buymeacoffee.com/mrmms",
   // ID do editor do AdSense, ex.: "ca-pub-1234567890123456"
   ADSENSE_CLIENT: "",
   // IDs dos blocos de anúncio (AdSense > Anúncios > Por bloco de anúncios)

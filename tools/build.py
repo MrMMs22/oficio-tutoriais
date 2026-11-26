@@ -10,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://mrmms22.github.io/oficio-tutoriais/"
 SITE = "Ofício"
-VER = "5"
+VER = "6"
 # Imagens dos passos: "datajs" = cada tutorial ganha img/<id>/passos.js com as imagens em data URI
 # (só texto, publicável pelo conector do GitHub); "files" = <img src="img/<id>/<n>.webp"> direto.
 IMG_MODE = os.environ.get("OFICIO_IMG_MODE", "datajs")  # muda para invalidar cache de CSS/JS
