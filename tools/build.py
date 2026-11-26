@@ -10,7 +10,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 BASE = "https://mrmms22.github.io/oficio-tutoriais/"
 SITE = "Ofício"
-VER = "4"  # muda para invalidar cache de CSS/JS
+VER = "5"
+# Imagens dos passos: "datajs" = cada tutorial ganha img/<id>/passos.js com as imagens em data URI
+# (só texto, publicável pelo conector do GitHub); "files" = <img src="img/<id>/<n>.webp"> direto.
+IMG_MODE = os.environ.get("OFICIO_IMG_MODE", "datajs")  # muda para invalidar cache de CSS/JS
 
 data = json.loads((ROOT / "data/tutoriais.json").read_text(encoding="utf-8"))
 CATS = {
@@ -225,10 +228,19 @@ for t in data:
     if t["aviso"]:
         p += f'''  <div class="callout warn" id="atencao" role="note">{svg(I["warn"])}<div><b>Atenção</b><p>{e(t["aviso"])}</p></div></div>\n'''
     p += '  <div class="ad-slot" data-ad="tutorialTop" hidden></div>\n'
-    p += f'''  <section class="sec" id="passos" aria-labelledby="h-passos">
+    imgs = t.get("imagens") or []
+    def fig(i):
+        if i >= len(imgs) or not imgs[i]: return ""
+        im = imgs[i]
+        src = f'{pre}{im["arquivo"]}'
+        if IMG_MODE == "datajs":
+            return f'<figure class="step-fig"><img data-img="{i}" alt="{e(im["alt"])}" width="1024" height="768" decoding="async"></figure>'
+        return f'<figure class="step-fig"><img src="{src}" alt="{e(im["alt"])}" width="1024" height="768" loading="lazy" decoding="async"></figure>'
+    dj = f' data-imgjs="{pre}img/{t["id"]}/passos.js?v={VER}"' if IMG_MODE == "datajs" and any(imgs) else ""
+    p += f'''  <section class="sec" id="passos" aria-labelledby="h-passos"{dj}>
     <h2 id="h-passos">Passo a passo <small>{n}</small></h2>
     <ol class="steps">
-''' + "".join(f'''      <li class="step"><span class="n" aria-hidden="true">{i+1}</span><p><span class="sr-only">Passo {i+1}: </span>{e(s)}</p><button type="button" class="tick" aria-pressed="false" aria-label="Marcar passo {i+1} como feito">{svg(I["check"])}<span class="tick-txt">Marcar</span></button></li>
+''' + "".join(f'''      <li class="step{' has-fig' if fig(i) else ''}"><span class="n" aria-hidden="true">{i+1}</span><p><span class="sr-only">Passo {i+1}: </span>{e(s)}</p><button type="button" class="tick" aria-pressed="false" aria-label="Marcar passo {i+1} como feito">{svg(I["check"])}<span class="tick-txt">Marcar</span></button>{fig(i)}</li>
 ''' for i, s in enumerate(t["passos"])) + "    </ol>\n  </section>\n"
     p += '  <div class="finish" role="status"><b>Pronto! 🎉</b><p>Todos os passos marcados. <button type="button" class="linkbtn" data-reset-steps>Recomeçar</button></p></div>\n'
     if t["dica"]:
@@ -297,6 +309,17 @@ out["sitemap.xml"] = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="htt
 out["robots.txt"] = f"User-agent: *\nAllow: /\nSitemap: {BASE}sitemap.xml\n"
 out["manifest.webmanifest"] = json.dumps({"name": "Ofício — tutoriais práticos", "short_name": "Ofício", "lang": "pt-BR", "start_url": "./", "scope": "./", "display": "standalone", "background_color": "#0b0c0a", "theme_color": "#0b0c0a", "icons": [{"src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"}]}, ensure_ascii=False, indent=1) + "\n"
 out[".nojekyll"] = ""
+
+if IMG_MODE == "datajs":
+    import base64
+    for t in data:
+        imgs = t.get("imagens") or []
+        if not any(imgs): continue
+        uris = []
+        for im in imgs:
+            f = ROOT / im["arquivo"] if im else None
+            uris.append("data:image/webp;base64," + base64.b64encode(f.read_bytes()).decode() if f and f.exists() else "")
+        out[f'img/{t["id"]}/passos.js'] = "/* Imagens dos passos de " + t["id"] + " (WebP em data URI; gerado por tools/build.py) */\n(window.OFICIO_IMGS=window.OFICIO_IMGS||{})[" + json.dumps(t["id"]) + "]=" + json.dumps(uris) + ";\n"
 
 for rel, txt in out.items():
     f = ROOT / rel; f.parent.mkdir(parents=True, exist_ok=True); f.write_text(txt, encoding="utf-8")

@@ -294,3 +294,25 @@
   document.head.appendChild(s);
   used.forEach(function(){(window.adsbygoogle=window.adsbygoogle||[]).push({})});
 })();
+
+/* ---------- ilustrações dos passos (carregamento sob demanda) ---------- */
+(function(){
+  "use strict";
+  var imgs=document.querySelectorAll(".step-fig img");
+  Array.prototype.forEach.call(imgs,function(im){
+    if(im.getAttribute("src")){if(im.complete)im.classList.add("loaded");else im.addEventListener("load",function(){im.classList.add("loaded")})}
+  });
+  var sec=document.querySelector("[data-imgjs]");if(!sec)return;
+  var art=document.querySelector("article[data-id]"),id=art&&art.dataset.id,started=false;
+  function apply(){
+    var list=(window.OFICIO_IMGS||{})[id]||[];
+    Array.prototype.forEach.call(sec.querySelectorAll("img[data-img]"),function(im){
+      var u=list[+im.dataset.img];if(!u)return;
+      im.addEventListener("load",function(){im.classList.add("loaded")});im.src=u;
+    });
+  }
+  function load(){if(started)return;started=true;var s=document.createElement("script");s.src=sec.dataset.imgjs;s.onload=apply;document.head.appendChild(s)}
+  if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){if(es.some(function(e){return e.isIntersecting})){io.disconnect();load()}},{rootMargin:"600px 0px"});io.observe(sec)}
+  else load();
+  window.addEventListener("beforeprint",load);
+})();
